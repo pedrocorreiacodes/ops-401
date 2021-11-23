@@ -56,3 +56,24 @@ General policies related to a SOC 2 exame that you must comply with:
 * Acceptable Use Policy
 * Information, Software and System Backup Policy
 * Business Continuity and Disaster Recovery Plan
+
+### Lecture
+
+------
+
+#### Security Controls
+
+------
+
++ Security Control Categories
+  + Techincal
+  + Operational
+  + Managerial
+
++ Security Control Functional Types
+  + Preventative
+  + ACL
+  + Detective
+  + Corrective 
+  + Physical
+  + Compensating
