@@ -1,6 +1,6 @@
-# Ops-301
+# Ops-401
 
-## Personal student repo for Ops-301
+## Personal student repo for Ops-401
 
 ### Repo Structure
 
@@ -8,4 +8,3 @@
 - `labs` folder holds labs solution with embedded screenshots.
 - `challenges` folder holds challenge scripts/solutions.
 - `screen-shots` folder hosts screenshots for `labs` documents.
-
