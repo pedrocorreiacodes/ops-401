@@ -127,7 +127,10 @@ Initrobe should update its Cyber Risk Assessment on an annual basis in order to 
 
 #### **Policies**
 
-+ Encryption Policy Log Management Policy Office Security Policy Remote Access Policy Security Incident Response Policy Workstation Policy
++ Encryption Policy Log Management Policy 
++ Office Security Policy Remote Access Policy
++  Security Incident Response Policy 
++ Workstation Policy
 
 #### **Procedures**
 

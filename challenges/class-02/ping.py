@@ -2,6 +2,7 @@
 
 import os, time, datetime;
 
+target = "8.8.8.8"
 
 def check_ping(target):
 
@@ -15,10 +16,9 @@ def check_ping(target):
     return pingstatus
 
 
-pingstatus = check_ping("8.8.8.8")
 
 
 while True:
     now = datetime.datetime.now()
-    print(str(now) + " " + pingstatus + " to 8.8.8.8")
+    print(str(now) + " " + check_ping(target) + " to 8.8.8.8")
     time.sleep(2)
