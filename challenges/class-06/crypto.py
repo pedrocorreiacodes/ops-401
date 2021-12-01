@@ -96,3 +96,5 @@ write_key()
 key = load_key()
 
 start()
+
+# source: https://www.thepythoncode.com/article/encrypt-decrypt-files-symmetric-python
