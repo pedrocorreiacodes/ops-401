@@ -137,3 +137,9 @@ While hashes can help you confirm af ile wasn't tampered with, there's still one
 
 That's why modern Linux distribution often provide more than hashes lists on web pages. They cryptographically sign these hashes to help protect against attackers that might attempt to modify the hashes. Cryptographic signature must be verified to ensure the hash file was actually signed by the Linux distribution.
 
+
+
+### Lecture
+
+------
+
