@@ -174,7 +174,7 @@ Go to **Security Hub > Security Standards > CIS AWS Foundations Benchmark v1.2.0
 
 #### Assess your findings. Make one change that improves the result of your CIS scan.
 
-![Screenshot 2021-11-30 at 19.21.58](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-04/Screenshot 2021-11-30 at 19.21.58.png)
+![Screenshot 2021-11-30 at 19.21.58](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-04/Screenshot%202021-11-30%20at%2019.21.58.png)
 
 ![Screenshot 2021-11-30 at 19.28.57](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-04/Screenshot%202021-11-30%20at%2019.28.57.png)
 
