@@ -143,3 +143,130 @@ That's why modern Linux distribution often provide more than hashes lists on web
 
 ------
 
+#### Data states
+
++ Data at rest
+
+  + This state means that e sata is in some sort of persistent storage media
+
++ Data in transit (or data in motion)
+
+  + The stat when data is transmitted over a netowork.
+  + Examples include webisite traffic, remote access traffic, data being synchronized between cloud repositories
+
++ Data is use (or data in processing)
+
+  + The state when data is present in volatile memory, such as system RAM or CPU registers and cache
+
+  
+
+#### Encryption
+
+The act of transforming plaintext into ciphertext.
+
++ Ensures data confidentiality
+
+Encryption uses a chiper, or mathematical algorithm, to transform readable plaintext into unreadable ciphertext .
+
++ **Ciphertext** is the altered form of a plaintext message, so as to be unreadable for anyone except the intended recipients.
+  + Something that has been turned into a secret
+  + Ensure data confidentiality
++ **Plaintext** is human readable-
+
+#### Decryption
+
+The reverse process from encryption.
+
++ Converts a ciphertext message back into plaintext.
++ Uses a cryptographic algorithm and the appropriate key that was used to do the original encryption.
+
+#### Hashing
+
+Is a process that generates a unique hash value for a given data.
+
++ Can target a file or a string.
+  + Message Digest 5 (MD5)
+  + Secure Hashing Algorithm 1 (SHA-1)
+  + SHA-2
+  + NTLM
+  + LANMAN
+
+Hashing is not encryption!
+
+Hashes can be "cracked" to reveal original data.
+
+#### MitM Attack
+
++ What is a man-in-the-middle (MitM) attacks?
+  + A **Mitm or on-path attack** is where the threat actor gains a positions between two hostsm and transparently captures, monitors, and relays all communication between the hosts.
++ How is a Man-in-the-Middle attack performed?
+  + Snifing
+  + Packet capture
+  + Packet alteration
+  + MAC cloning
++ Examples: Wi-Fi eavesdropping, email hijacking, IP spoofing
+
+#### Data Transmission Protocols
+
+#### TLS
+
+Transport Layer Security (TLS)
+
++ Typically used with the HTTP application (referred to as HTTPS or HTTP Secure)
++ Can also be used to secure other application protocols and as virtual private networking (VPN) solution.
++ Versions 1.3, 1.2, 1.1, 1,0
+
+Downgrade attacks
+
++ Man-in-the-middle tries to force the use of a weak cipher suite and SSL/TLS version.
++ TLS 1.3 is imprevious to dowgrade attack.
+
+#### File Transfer Protocol (FTP)
+
+Facilitates the transfer of files between hosts.
+
++ Uses TCP/IP.
++ Username/password authentication. Credentials sent in cleartext.
++ Connection established on TCP port 21.
+
+#### Secure File Transfer Protocol (SFTP)
+
+Facilitates the secure transfer of files between hosts.
+
++ Uses SSH.
++ Username/password authentication. Credentials encrypted.
++ Connection established on TCP port 22.
+
+#### FTPS
+
+Alternatively FTP can use TLS/SSL instead of SSH
+
++ Explicit TLS (FTPES)
+
+  + Use the AUTH TLS command to upgrade an unsecure connection established over port 21 to a secure one.
+
+    This protects authenticaion credentials. The data connection for the acual file transfer can also be encrypted (using the PROT command)
+
++ Implicit TLS (FTPS)
+
+  + Negotiate and SSL/TLS tunnel before the exchange of any FTP commands. This mode uses the secure port 990 for the control connection.
+
+#### SCP
+
+Secure Copy Protocol (SCP) is a network protocol which supports file transfers between hosts on a network using SSH for data transfer.
+
++ Uses the same mechanisms as SSH for authentication
++ Ensures the authenticity and confidentiality of the data in transit
+
+#### Secure Email Protocols
+
+Email
+
++ Secure SMTP (SMTPS)
+  + Uses implicit TLS
++ Secure POP (POP3S)
+  + Secured version of POP
+  + Uses TCP port 995
++ Secure IMAP (IMAPS)
+  + IMAP4 supports permanent connections to server
+  + Multiple concurrent connections
