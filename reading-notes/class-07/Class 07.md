@@ -116,3 +116,95 @@ A **rootkit** is a set of software designed to access areas of a computer that a
 + Bootloader rootkiit
 + Memory rootkit
 + Kernel mode rootkits
+
+#### Hardware Root of Trust
+
+**TPM** - Trusted Platform Module
+
+*Piece of hardware to store multiple keys. Secure module that some motherboards have*.
+
++ Hardware-based storage of cryptographic data
++ Endorsement key
++ Subkeys used in key storage, signature, and encryption operations
++ Owership secured via password
+
+#### Boot Integrity
+
++ Unified extensible firmware interface (UEFI)
++ Secure boot
+  + Validate digital signaturess before running boot loader or OS kernel
++ Measured boot
+  + Use TPM to measure hashes of boot files at each stage
++ Attestation
+  + Report boot metrics and signatures to remote server
+
+#### Drive Encryption
+
++ Full disk encryption (FDE)
+  + Encryption key secured with user password
+  + Secure storage for key in TPM or USB thumb drive
++ Self-encrypting drives (SED)
+  + Data/media encryption key (DEK/MEK)
+  + Authentication key (AK) or key encrypting key (KEK)
+  + Opal specificatin compliant
+
+#### UDB and Flash Drive Security
+
++ BadUSB
+  + Exposes potential of malicioud firmware
+  + Malicious USB cable
+  + Malicious flash drive
++ Sheep dip
+  + Sandbox system for testing new/suspect devices
+  + Isolated from production network/data
+
+#### FDE Tools in Windows
+
++ **BitLocker** is a "data protection" feature that integrates with the operating system and addresses the threats or data theft or exposure from lost, stolen, or innapropriately decommissioned computers.
+  + Supports FDE on Windows systems
+  + Requires TPM chip on system
+  + Operated via GUI or Powershell
+  + Preinstalled on Windows 10 Pro
+
+#### Encryption in Linux
+
++ **Linux Unified Key Setup (LUKS)*** is a disk encryption specification created in 2004 intended for Linux OS.
+  + Provides a common standard for Linux hard disk encryption
++ **eCryptfs** is a Linux stacked file system (not a FDE solution)
+  + Useful for encryptin needs over entire directories in Linux
+  + Capable of creating encrypted directoy and mounting it on any directoy
+  + Stores cryptographic metadata on file headers
+
+#### Third-party Risk Management
+
++ Supply chain and vendors
+  + End-to-end process of supplying, manufacturing, distributing, and finally releasing goods and services to a customer
+  + Could malicious actor within supply chain introduce backdoor access via hardware/firmware components
+  + Most companies must depend on governments/security services to ensure trustwothiness of market suppliers 
+  + Consider implication of using second-hand equipment
++ Vendors versus business partners
+
+#### End of Life Systems and Lack of Vendor Support
+
++ Support lifecycles
++ End of life (EOL)
+  + Product is no longer sold to new customers
+  + Availability of spares and updated is reduced
++ End of service life (EOSL)
+  + Product is no longer supported
++ Lack of vendor support
+  + Abandonware
+  + Sofware and peripherals/devices
+
+#### Organizational Security Agreements
+
++ Memorandum of understanding (MOU)
+  + Intent to work together
++ Business partnership agreement (BPA)
+  + Establish a formal partner relationship
++ Non-disclosure agreement (NDA)
+  + Govern use and storage of shared confidential and private information
++ Service level agreement (SLA)
+  + Establish metrics for service delievery and performance
++ Measurement systems analysis (MSA)
+  + Evaluate data collection and statistical methods used for quality management
