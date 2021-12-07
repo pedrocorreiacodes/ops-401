@@ -6,21 +6,21 @@
 
 #### Register for an account at Trend Micro Worry-Free Business Security Services 30-Day Trial.
 
-![Screenshot 2021-12-07 at 11.03.57](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 11.03.57.png)
+![Screenshot 2021-12-07 at 11.03.57](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2011.03.57.png)
 
-![Screenshot 2021-12-07 at 11.08.39](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 11.08.39.png)
+![Screenshot 2021-12-07 at 11.08.39](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2011.08.39.png)
 
 #### From the PC or VM you’re installing agent to, access the portal and download the agent. The type of computer used should not affect the lab but Windows 10 is generally recommended.
 
-![Screenshot 2021-12-07 at 11.16.20](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 11.16.20.png)
+![Screenshot 2021-12-07 at 11.16.20](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2011.16.20.png)
 
-![Screenshot 2021-12-07 at 11.56.10](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 11.56.10.png)
+![Screenshot 2021-12-07 at 11.56.10](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2011.56.10.png)
 
-![Screenshot 2021-12-07 at 11.57.39](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 11.57.39.png)
+![Screenshot 2021-12-07 at 11.57.39](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2011.57.39.png)
 
-![Screenshot 2021-12-07 at 12.00.10](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 12.00.10.png)
+![Screenshot 2021-12-07 at 12.00.10](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2012.00.10.png)
 
-![Screenshot 2021-12-07 at 12.15.43](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 12.15.43.png)
+![Screenshot 2021-12-07 at 12.15.43](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2012.15.43.png)
 
 ### Part 2: Baseline Evaluation
 
@@ -32,17 +32,17 @@
 
   - Test one sample SSN or CCN file
 
-  ![Screenshot 2021-12-07 at 12.36.58](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 12.36.58.png)
+  ![Screenshot 2021-12-07 at 12.36.58](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2012.36.58.png)
 
-![Screenshot 2021-12-07 at 12.37.12](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 12.37.12.png)
+![Screenshot 2021-12-07 at 12.37.12](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2012.37.12.png)
 
 - HTTPS POST
 
   - Test one sample SSN or CCN file
 
-  ![Screenshot 2021-12-07 at 12.38.24](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 12.38.24.png)
+  ![Screenshot 2021-12-07 at 12.38.24](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2012.38.24.png)
 
-![Screenshot 2021-12-07 at 12.38.42](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 12.38.42.png)
+![Screenshot 2021-12-07 at 12.38.42](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2012.38.42.png)
 
 - FTP Test using FileZilla
 
@@ -50,7 +50,7 @@
 
   FTP test page doesn't seem to resolve.
 
-  ![Screenshot 2021-12-07 at 12.46.22](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 12.46.22.png)
+  ![Screenshot 2021-12-07 at 12.46.22](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2012.46.22.png)
 
 ### Part 3: Endpoint DLP Policy Implementation with Trend Micro
 
@@ -58,23 +58,23 @@
 
 On Trend Micro remote manager (web portal) we have to enable DLP:
 
-![Screenshot 2021-12-07 at 13.04.10](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.04.10.png)
+![Screenshot 2021-12-07 at 13.04.10](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.04.10.png)
 
 And click **+ Add** to add a new policy. We can select the PCI-DS template for our Lab. Click **Save** to save the new rule:
 
-![Screenshot 2021-12-07 at 13.05.39](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.05.39.png)
+![Screenshot 2021-12-07 at 13.05.39](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.05.39.png)
 
-![Screenshot 2021-12-07 at 13.14.19](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.14.19.png)
+![Screenshot 2021-12-07 at 13.14.19](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.14.19.png)
 
-![Screenshot 2021-12-07 at 13.07.08](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.07.08.png)
+![Screenshot 2021-12-07 at 13.07.08](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.07.08.png)
 
 Clicl **Update** on the agent to enable the new configuration (restart may be required):
 
-![Screenshot 2021-12-07 at 13.07.36](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.07.36.png)
+![Screenshot 2021-12-07 at 13.07.36](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.07.36.png)
 
 DPL is now enabled on the Security Agent:
 
-![Screenshot 2021-12-07 at 13.21.49](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.21.49.png)
+![Screenshot 2021-12-07 at 13.21.49](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.21.49.png)
 
 Once your agent is updated with a DLP policy, test its efficacy on [DLP Test](https://dlptest.com/) perform the following tests to establish a baseline configuration:
 
@@ -84,11 +84,11 @@ HTTP POST
 
 Had to type the details, clipboard was not working for these values.
 
-![Screenshot 2021-12-07 at 13.31.21](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.31.21.png)
+![Screenshot 2021-12-07 at 13.31.21](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.31.21.png)
 
 And we can check Security Agent Logs to see that the HTTP connection and clipboard was blocked:
 
-![Screenshot 2021-12-07 at 13.50.16](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.50.16.png)
+![Screenshot 2021-12-07 at 13.50.16](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.50.16.png)
 
 HTTP POST
 
@@ -96,13 +96,13 @@ HTTP POST
 
 Again, clipboard was deactivated for these. Had to type them.
 
-![Screenshot 2021-12-07 at 13.57.19](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.57.19.png)
+![Screenshot 2021-12-07 at 13.57.19](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.57.19.png)
 
-![Screenshot 2021-12-07 at 13.55.33](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 13.55.33.png)
+![Screenshot 2021-12-07 at 13.55.33](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2013.55.33.png)
 
 Connection was blocked and we can check the logs:
 
-![Screenshot 2021-12-07 at 14.01.08](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-08/Screenshot 2021-12-07 at 14.01.08.png)
+![Screenshot 2021-12-07 at 14.01.08](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-08/Screenshot%202021-12-07%20at%2014.01.08.png)
 
 ### Part 4: Policy Change Proposal
 
@@ -190,12 +190,12 @@ Create a table that describes each type of information asset the agency stores, 
 
 Use this table to determine the overall impact level and classification label for many information assets commonly used in the organization.
 
-| ***Federal Budget Planning Documents***                      |                                                              |                                                              |                                                              |
+| **Federal Budget Planning Documents**                      |                                                              |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | *Federal budget planning documents state the potential expenses for the following year. They include data about partners and suppliers, as well as analytical and research data.* |                                                              |                                                              |                                                              |
-| ***Information Types***                                      |                                                              |                                                              |                                                              |
+| ***Information Types**                                      |                                                              |                                                              |                                                              |
 | *Funds Control*                                              | *Funds Control documents include information about the management of the federal budget process, including the development of plans and useprograms, budgets, and performance outputs, as well as information about financing federal programs and operations through appropriation and apportionment of direct and reimbursable spending authority, fund transfers, investments and other mechanisms.* |                                                              |                                                              |
-| *Security Objectives*                                        | ***Confidentiality Impact***                                 | ***Integrity Impact***                                       | ***Availability Impact***                                    |
+| *Security Objectives*                                        | **Confidentiality Impact**                                 | **Integrity Impact**                                       | **Availability Impact**                                    |
 | *Impact Description*                                         | *Unauthorized disclosure of funds control information (particularly budget allocations for specific programs or program elements) can be seriously detrimental to government interests in procurement processes. In many instances, such unauthorized disclosure is prohibited by executive order or by law. Premature release of drafts of funds control information can yield advantages to competing interests and seriously endanger agency operations or even agency mission.* | *Funds control activities are not generally time-critical. An accumulation of small changes to data or deletion of small entries can result in budget shortfalls or cases of excessive obligations or disbursements.* | *Funds control processes are generally tolerant of delay. Typically, disruption of access to funds control information can be expected to have only a limited adverse effect on agency operations, agency assets or individuals.* |
 | *Impact Level*                                               | *Moderate*                                                   | *Moderate*                                                   | *Low*                                                        |
 | *Overall Impact Level*                                       | *Moderate*                                                   |                                                              |                                                              |
@@ -205,10 +205,10 @@ Use this table to determine the overall impact level and classification label fo
 
 Provide a table that will help data owners determine the impact level for each piece of data by describing the security objectives you want to achieve and how failure to attain each objective would impact the organization.Use this table to assess the potential impact to the company of a loss of the confidentiality, integrity or availability of a data asset that does not fall into any of the information types described in Section 5 and [NIST 800-600 Volume 2](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-60v2r1.pdf).
 
-| ***Security Objective***                                     | ***Potential Impact***                                       |                                                              |                                                              |
+| ***Security Objective***                                     | **Potential Impact**                                       |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ***Low***                                                    | ***Moderate***                                               | ***High***                                                   |                                                              |
-| ***Confidentiality.****Restrict access to and disclosure of data to authorized users in order to protect personal privacy and secure proprietary information.* | *Unauthorized disclosure of the information is expected to have **limited** adverse effects on operations, organizational assets, or individuals.* | *Unauthorized disclosure of the information is expected to have a **serious** adverse effect on operations, organizational assets, or individuals.* | *Unauthorized disclosure of the information is expected to have a **severe or catastrophic** adverse effect on operations, organizational assets, or individuals.* |
+| **Low**                                                    | **Moderate**                                               | **High**                                                   |                                                              |
+| **Confidentiality.** *Restrict access to and disclosure of data to authorized users in order to protect personal privacy and secure proprietary information.* | *Unauthorized disclosure of the information is expected to have **limited** adverse effects on operations, organizational assets, or individuals.* | *Unauthorized disclosure of the information is expected to have a **serious** adverse effect on operations, organizational assets, or individuals.* | *Unauthorized disclosure of the information is expected to have a **severe or catastrophic** adverse effect on operations, organizational assets, or individuals.* |
 | ***Integrity**.**Guard against improper modification or destruction of data, which includes ensuring information nonrepudiation and authenticity.* | *Unauthorized modification or destruction of the information is expected to have a **limited** adverse effect on operations, assets, or individuals.* | *Unauthorized modification or destruction of the information is expected to have a **serious** adverse effect on operations, assets, or individuals.* | *Unauthorized modification or destruction of the information is expected to have a **severe or catastrophic** adverse effect on operations, assets, or individuals.* |
 | ***Availability**.**Ensure timely and reliable access to and use of information.* | *Disruption of access to or use of the information or information system is expected to have a **limited** adverse effect on operations, assets, or individuals.* | *Disruption of access to or use of the information or information system is expected to have a **serious** adverse effect on operations, assets, or individuals.* | *Disruption of access to or use of the information or information system is expected to have **a severe or catastrophic** adverse effect on operations, assets, or individuals.* |
 
