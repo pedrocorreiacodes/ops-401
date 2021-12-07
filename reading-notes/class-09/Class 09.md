@@ -1,5 +1,27 @@
 ## Class 09
 
+### Readings: Public Key Infrastructure (PKI)
+
+------
+
+Public Key Infrastructure (PKI) is a technology for authenticating users and devices in the digital world.
+
+The basic ideia is to have one or more trusted parties digitally sign documents certifying that a particular cryptographic key belongs to a particular user or device. The key then ca n be used as an identity for the user in digital networks.
+
+Users and devices that have keys are often just called entities. In general, anything can be associated with a key that it can use as its identity such as program, process, manufacturer, component, or something else. The purpose of a PKI is to securely associate a key with an entity.
+
+The trusted party signing the document associating the key with the device is called a certificate authority (CA). The certificate authority also has a cryptographic key that it uses for signing these documents. These documents are called certificates.
+
+In the real world, there are many certificate authorities, and most computers and web browsers trust a hundred or so certificate authorities by default.
+
+A public key infrastructure relies on a digital signature technology, which uses public key cryptography.
+
+The secret key of each entity is only known by that entity and is used for signing. This key is called he private key. 
+
+The public key derives from the private key, which is used for verifying signatures but cannot be used to sign. This public key is made available to anyone, and its typically included in the certificate document
+
+
+
 ### Lecture
 
 ------
