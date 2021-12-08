@@ -20,7 +20,43 @@ The secret key of each entity is only known by that entity and is used for signi
 
 The public key derives from the private key, which is used for verifying signatures but cannot be used to sign. This public key is made available to anyone, and its typically included in the certificate document
 
+#### X.509 Standard
 
+Most public key infrastructures use a standardized machine-readable certificat format for the certificate documents The standard is called X.509v3. Originally, it was an ISO standard, but these days it is maintaind by the Internet Engineering Task Force as RFC 3280
+
+#### Common Uses of Certificates
+
+##### Secure Web Sites - HTTPS
+
+The most familiar use of PKI is in SSL certificatrs. Secure Sockets Layer is the security protocols used on the web when you fetch a  page whose address begins with `https:`. TLS (Transport Layer Security) is a newer version of the protocol. In practice, most websites now use the new version.
+
+With HTTPS, certificates serve to identify the web site you are connecting to, to ensure that no-one can eavesdrop on your connection or, for exsample, inject fraudulent wire transfers or steal credit card numbers.
+
+Certificates and cryptographic authenticatioon of the server prevent man-in-the-middle attacks. For secure communications, it is necessary to authenticate the communicating parties and encrypt the communications to protect password and data from malicious devices and hackers in the network.
+
+##### Authenticating User and Computers -SSH
+
+The Secure Shell protocol supports certificates for authenticating hosts and users. *Tectia SSH* uses standards-based x.509 certificates, whereas OpenSSH uses its own proprietary certificate formats.
+
+##### Email signing and Encryption
+
+Certificates are also used for secure email in corporations. The S/MIME standard specifies a message format for signed and encrypted message format for signed and encrypted messaging, using the XX.509 certificates formats.
+
+PGP (Pretty Good Privacy) and Gnu Privacy Guard (GPG) use their own certificate format and somewhat different trust model. However, they still offer email encryption and are quite popular.
+
+#### Security Limitations of Public Key Infrastructure
+
+The main weakness of public PKI is that any certificate authroity can sign a certificate for any person or computer. Certificate authorities exist in many coutnries, some of which have rather authoritarian or even potentially hostile governments. Sometimes certificate authorities create or are coerced to create certificates for parties they have no business vouching for.
+
+Among other things, intelligence agencies can use fraudulent certificate for espionage, malware injection, and forging messages or evidency to disrupt or discredit adversaries.
+
+Some organizations run their own private public key infrastructures. This means they run their own internal certificate authority. When the organization only trusts the internal CA for a certain purpose, there is a fair certainty that no-one else can issue certificates on their behalf. When they also trust public PKIs for the same entities, there is no added security, but they may save cos.
+
+#### SSH's Rol in the Development of Public Key Infrasctrucure
+
+SSH Communications Security was one of the early pioneers in PKI.
+
+They partcipated in the standardization work for X.509v3 and proposed an alternative approach called Simple Public Key Infrastructure (SPKI) to address some of the trust issues with the X.509 standard.
 
 ### Lecture
 
