@@ -149,6 +149,31 @@ penSSL can help us with handling digital certificates. In this part of the lab y
 
 - The tutorial consists of three labs. Complete the Simple lab first. The subsequent Advanced and Expert labs are stretch goals.
 
-  1. [Simple PKI](https://pki-tutorial.readthedocs.io/en/latest/simple/index.html)
+  1. [Simple PKI](https://pki-tutorial.readthedocs.io/en/latest/simple/index.html):
 
-  
+     
+
+  1. Create Root CA
+
+  ![Screenshot 2021-12-08 at 18.35.34](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-09/Screenshot 2021-12-08 at 18.35.34.png)
+
+![Screenshot 2021-12-08 at 18.37.47](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-09/Screenshot 2021-12-08 at 18.37.47.png)
+
+2. Create Signing CA
+
+![Screenshot 2021-12-08 at 18.40.42](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-09/Screenshot 2021-12-08 at 18.40.42.png)
+
+3. Operate Signing CA
+
+![Screenshot 2021-12-08 at 18.45.43](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-09/Screenshot 2021-12-08 at 18.45.43.png)
+
+![Screenshot 2021-12-08 at 18.47.45](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-09/Screenshot 2021-12-08 at 18.47.45.png)
+
+4. Output Formats
+
+![Screenshot 2021-12-08 at 18.54.56](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-09/Screenshot 2021-12-08 at 18.54.56.png)
+
+5. View Results
+
+![Screenshot 2021-12-08 at 18.57.18](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-09/Screenshot 2021-12-08 at 18.57.18.png)
+
