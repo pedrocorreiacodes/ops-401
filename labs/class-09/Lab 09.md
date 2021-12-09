@@ -177,3 +177,37 @@ penSSL can help us with handling digital certificates. In this part of the lab y
 
 ![Screenshot 2021-12-08 at 18.57.18](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-09/Screenshot 2021-12-08 at 18.57.18.png)
 
+### Part 5: Reporting
+
+------
+
+#### How can public key encryption utilities ensure integrity and confidentiality of data between two parties?
+
+Encryption is known as the process of converting plaintext into cipher text. That means that ecrypted text is unreadable for human eyes. In the case of public key encryption one algorithm is used for encryption and a related algorithm decryption with pair of keys, one for encryption and other for decryption. Plain text is encrypted using receiver public key. This will ensures that no one other than receiver private key can decrypt the cipher text.
+
+Confidentiality is achieved when we the message is kept private, only the sender and receiver can read the message.
+
+The digital signature also ensures the authentication of the sender. The sender wil encrypt the plain text using his own private key.  This will make sure the authentication of the sender because the receiver can decrypt the cipher text using sends public key only. Using signatures, we can cryptographically prove the integrity and ownership of a message.
+
+#### Is PGP a secure protocol to be using? 
+
+The original PGP might present some security issues, newer versions such as OpenPGP are recommended.
+
+#### Why is PGP not very popular among casual computer users?
+
+Due to it's complexity of use. Slower comunication. 
+
+#### Identify a website on the internet that does NOT have HTTPS (SSL) encryption in place
+
+http://www.videolan.org/
+
+#### Why do you think the website lacks SSL encryption?
+
+Possibly they're keeping the security mechanism hidden from the user.
+
+#### What steps should the web administrator take in order to reconfigure the site to use SSL encryption?
+
+1. Identify all web servers and services that need to be encrypted. 
+2. Get certificates for web servers and services that need them.
+3. Configure the web server to use HTTPS, rather than HTTP. 
+4. Administer and manage certificates.
