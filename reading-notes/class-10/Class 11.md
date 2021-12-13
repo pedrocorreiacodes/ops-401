@@ -1,6 +1,78 @@
 ## Class 11
 
-### Lecture
+### Reading: Is Cybersecurity Automation The Future?
+
+------
+
+One of the trendig topics in information technology is cybersecurity automation.
+
+Automating repeatable tasks that are people-driven allows business and individuals to conentrate on more productive problem-solving activitivies. A focus on these problem-solving activities can foster innovation and lead to a more resilient organization from a cybersecurity stantpoint.
+
+#### What is Cybersecurity Automation?
+
+Cybersecurity products design to automate specific processes are widespread, and the likelihood is that you have already implemented automation tools within your organization. For example, vulnerability management products can be configured to automatically detect and scan devices on a enterprise network. They can then conduct and assessment based upon a set of security controls authorized by the organization. Once the assessment is complete, identified defects can be remediated.
+
++ Security Atomation and Orchestration (SOAR) 
++ Robotic Process Automation (RPA)
++ Custom-developed software and code that automate processes and perform analysis
+
+SOAR products are purpose-buil tools that orchestrate activities in response to identified threats. RPA toos are a broarder set o automation toolst that allow for a wide variety of processes to be automated. RPA tools have seen a signficant increase in adoption in the HR and finance fiels but can also be leveraged by cybersecurity teams. Custom-developed software and code can automate all manner of analyses and is often leveraged for a niche or specific challenge within an organization that may not have an out of the box tool available.
+
+#### Why Cybersecurity Automation?
+
+Increasing organizational complexity can lead to significant risk if cybresecurity cannot sufficiently manage the changing environment by properly defending, monitoring and responding to threats.
+
+As companies press forward with a variety of digital transformation activities, it is important to realize that those activities increase the overall attack surface from a corporate espionage perspective.
+
+Automation can also help address lean or illproportioned cybersecurity teams (in relationship to the growing digitial footprint of the organization).
+
+Implementing automation could be vital in order to reliably protect your organization and ensure resilience through robust and repeatable processes.
+
+#### What Is The Benefit Of Automation?
+
+By implmenenting automation in an organization's envriornment, the cybersecurity team can focus on activities that are more complex. This means that the machine can perform the mundane, repeatable work, and cybersecurity team members can devote themselves to more critical, creative and technical work to resolve issues and improvre the organizational risk posture. Once the appropriate activities are automated, cybersecurity practitioners can focus on projects such as:
+
++ **Engineering and Architecture**: Automation will allow the cybersecurity team to focus on designing and implementing cybersecurity strategies.
++ **Remediation Activities**: The identified deficiencies from your automation efforts will assist your technical and mission teams by providing more repeatable and actionable insight into the enterprise environment leading to fewer vulnerabilities.
++ **Automation Development and Engineering**: Automation will become and important part to the cybersecurity program requiring its own resources relate to ongoing and iterative automation desing and implementation.
+
+The future of cybersecurity operations is intertwined with automation. In the future cybersecurity programs may become a developer shop where automations capabilities wil be created and advanced using multiple automation techniques.
+
+The three basic approaches to successfully implement automation concepts include:
+
++ Embed development capabilities in your cybersecurity team. In this way developers report directly to cyber leadership.
++ Partner cybersecurity with organizational development teams. This allows cybersecurity to leverage the capabilities of organizational development experts.
++ Adopt a hybrid approach. Utilize and internal team for tactical development work and organizational development capabilities for complex integration taks.
+
+### Reading: Everything you need to know about automated incident response
+
+------
+
+With the right automated incident response tools, IT security teams can stay in control of their incident response (IR) activities and respond to threats and intrusions swifly and effectively with less manual work.
+
+Firewalls help protect from bad actors by filtering network traffic. But most firewalls aren't connected to your other security tools and their rues are infrequently updated, meaning they may not be current to address the latest threats.
+
+With automated incident response you can automatically update your firewall to block malicious IPs as they are detected.
+
+One of your systems hasd been infected with malware. You need to limit the dsamage and find out hor many systes are vulnarable before it spreads.
+
+Automated incident response tools can shorten the to-do list in case of an attacks. With orchestration and automation tools you can automate actions like fetching additional forensics data, disabling networking on an infected system, runnign automated vulnerability scans to identify other at-risk systems, and isolating those as well until you have a chance to patch or otherwise address them.
+
+You've contained a breach, but what was the scope of the damage? Whether for compliance purposes or just to understand what happend you need to investigate.
+
+One of your systems interacts with a Command & Control server for a remote administration tools (RAT). You need to block any further communication with the malicious domain.
+
+New ransomware has emerged that exploits a vulnerability in a common Operating System. You need to know if your systems are vulnerable and, if so, take action.
+
+A breach occurs in one of your environments. You have a team of people handling the investigstion, but you (and they) need to keep track of the incident response activities they're taking on.
+
+You detect ransomware activity on a server storing crucial customer data and the alarm occurs in the middle of the night.
+
+Security Orchestration. Finding the right solution for your organizations needs
+
+
+
+## Lecture
 
 ------
 
