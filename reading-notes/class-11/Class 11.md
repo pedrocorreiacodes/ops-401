@@ -56,7 +56,7 @@ With automated incident response you can automatically update your firewall to b
 
 One of your systems hasd been infected with malware. You need to limit the dsamage and find out hor many systes are vulnarable before it spreads.
 
-Automated incident response tools can shorten the to-do list in case of an attacks. With orchestration and automation tools you can automate actions like fetching additional forensics data, disabling networking on an infected system, runnign automated vulnerability scans to identify other at-risk systems, and isolating those as well until you have a chance to patch or otherwise address them.
+Automated incident response tools can shorten the to-do list in case of an attacks. With orchestration and automation tools you can automate actions like fetching additional forensics data, disabling networking on an infected system, running automated vulnerability scans to identify other at-risk systems, and isolating those as well until you have a chance to patch or otherwise address them.
 
 You've contained a breach, but what was the scope of the damage? Whether for compliance purposes or just to understand what happend you need to investigate.
 
