@@ -96,3 +96,94 @@ Consider all your options:
 A SIEM collects and organizes all the data coming from various sources within you network and offers your SOC team insigts so that they can quickly detect and respond to internal and external attacks, simplify threat management, minimize risk, and gain organization-wide visibility and security intelligence.
 
 SIEM is critial for SOC taks, such as monitoring, incident response, log management, compliance reporting and policy enforcement. Its log management capabilities alone make it a necessary tool for any SOC. SIEM can parse through huge batches of security data coming from thousand of sources to find unusual behavior and malicious activity and stop it automatically. Much of that activity goes undetected without the SIEM.
+
+### Lecture
+
+------
+
+#### Splunk Boss
+
+Conference for security professional with challenges and exercises around splunk
+
++ Web site defacement (someone will hack into an web server and deface it)
++ Cyber kill chain (the order by which attackers get into environments)
++ Web vulberability scanners
++ OSINT 
++ Brute force attack
++ Dynamic DNS (DDNS)
++ Boss of the SOC
++ Demo
+
+#### Advanced Persistent Threats
+
++ A skilled and determined cyber criminal who can use multiple vectors and entry points to navigate around defenses, breach your network in minutes and evade detection for months. APTs present a challenge for organizational cyber security efforts.
+
+#### Web Site Defacement
+
++ Web site defacement is typically a form of haktivism, where the attacker infiltrates a web server and alters the front page to send a message
++ A hacktivist uses offensive security skills to influence policy and attempt to bring about social change
+
+#### Cyber Kill Chain
+
++ Is a security model outlining the sequential phases of a cyber attack
++ Used by defenders to plan ways to interrupt or "break" the cyber kill chain and hopefully thwart the attacl entirely
++ Originially developed by Lockheed Martin
+  1. Reconnaissance
+     * Attacker is assessing the target from outside
+     * Cost-benefit analysis
+     * Gathering infromation
+       * Active information gathering
+       * Passive information gathering
+  2. Weaponization
+     + Threat actor develops malware payload designed to target newly-discovered vulnerabilities
+     + Tools customized to target network
+       + Whst will work?
+       + How will I develop it?
+       + Can I source the weapon from the dark web?
+       + Can I tailor it to the target?
+  3. Delivery
+     + Malware payload delivered to target network or system
+     + Example: Spear phishing attack, USB drop
+     + Target email with a malicious attachment
+     + Exploit mismanaged or misconfigured servers
+  4. Exploitation
+     + Malware executed
+     + Discovered vulnerabilities exploited
+     + Superuser access granted to threat actor
+  5. Installation
+     + Malware embeds itself into target systems
+     + Additional malware components downloaded
+  6. Command and Control
+     + Management and communication established from attacker to malware infection
+     + Facilitates greater movement witthin target network
+  7. Action on Objectives
+     + The goal of the threat actor
+     + Mission-specific action are finally taken to achieve original objectives
+
+#### Web Vulnerability Scanners
+
++ Automated tools that scan web applications to look for security vulnerabilities such as cross-site scripting (XSS), SQL injection, and cross-site request forgery (CSRF).
+  + Burp suite
+
+#### OSINT
+
++ Includes information that can legally be gathered for free, public sources about an individual or organization
++ Community databases of useful security information
+  + Threatminer
+  + VirusTotal: Is a community database of malware IOCs and has an API
+  + Hybrid Analysis: is "a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology"
+  + ThreatMiner is a threat intelligence portal designed to enable analysts to research under a single interface
+
+#### Brute Force Attack
+
++ A brute force attack involves using automated authentication attempts to expedite the process of "guessing" the credentials to an account.
+
+#### Dynamic DNS
+
++ Is a service that automatically updates a DNS with a web property's correct IP, even if that IP address changes.
+
+#### Splunk Commands
+
++ The `metadata` command returns a list of sources, sourcetypes, or hosts from an index or search peer.
+  + Returns information accumulated over time
+  + Snapshot of an index over time frame, e.g. "last 7 days"
