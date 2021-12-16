@@ -94,3 +94,6 @@ Some copanie build their own reverse proxies, but this requires intensive softwa
     + PUT to alter the state of data (sych as an object, file or block)
     + POST to create data
     + DELETE methods to elimitate it
+
+##### Reconstructing a Cloud Attack
+
