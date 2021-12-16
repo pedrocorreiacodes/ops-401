@@ -38,7 +38,7 @@ Selecting `src_ip`fields:
 
 A threat actor made a vulnerabily scan from the ip `40.80.148.42`:
 
-![Screenshot 2021-12-15 at 21.50.09](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-15 at 21.50.09.png)
+![Screenshot 2021-12-15 at 21.50.09](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-12/Screenshot 2021-12-15 at 21.50.09.png)
 
 Now it's important to validate this finding. 
 
@@ -146,7 +146,7 @@ The next logical step is to get an idea of the time and the URI that is associat
 
 ![Screenshot 2021-12-16 at 14.35.54](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-12/Screenshot%202021-12-16%20at%2014.35.54.png)
 
-![Screenshot 2021-12-16 at 14.36.27](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-16 at 14.36.27.png)
+![Screenshot 2021-12-16 at 14.36.27](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-12/Screenshot 2021-12-16 at 14.36.27.png)
 
 ![Screenshot 2021-12-16 at 14.37.17](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-12/Screenshot%202021-12-16%20at%2014.37.17.png)
 
