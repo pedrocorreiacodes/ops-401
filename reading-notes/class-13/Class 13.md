@@ -47,3 +47,50 @@ Benefits of a reverse proxy:
 #### How to implement a reverse proxy
 
 Some copanie build their own reverse proxies, but this requires intensive software and hardware engineering resources, as well as significant investment in physical hardware. One of the easiest and most cost-effective ways to reap all the benefits of a reverse proxy is by signing up for a CDN service.
+
+### Lecture
+
+------
+
+#### Threat Taxonomy
+
++ To establish standards and norms in communicating and documenting threats, the security community has established taxonomic databases
++ **Tactics, techniques, and procedures (TTPs)** are "patterns of activities or methods associated with a specific threat actor or group of threat actors"
++ The global repository of known TTPs is maintained by MITRE and is known as the MITRE ATT&CK matrix.
++ **MITRE ATT&CK** is a "globally-accessible knowledge base of adversary tactics and techniques based on real-world observation."
+  + Used for developing threat models and methodologies
+  + A knowledge base of adversary behavior
+  + Based on real-world observations
+  + Free and open, globally accessible
+  + A common language
+  + Community-driven
++ ATT&CK defines the following tactics used in a cyberattack:
+  + TA0001: Initial Access (The adversary is trying to get into the network)
+    + T1566: Phishing (Adversaries may send phishing messages to gain access to victim system)
+      + .001: Spearphising Attachment (Adversaries may send spearphising emails with a malicious attachment in an attempt to gain access to victims systems.)
+  + TA0002: Execution
+  + TA0003: Persistence
+  + TA0004: Privilege Escalation
+  + TA0005: Defense Evasion
+  + TA0006: Credential Access
+  + TA0007: Discovery
+  + TA0009: Lateral Movement
+  + TA0010: Exfiltration
+  + TA0011: Command and Control (C2)
+
+#### API
+
+------
+
++ An "application programming interface (API)  is an interface that defines interaction between multiple software applications or mixed hardware-software intermediaries."
++ Why do we need to analyze API interactions in the cloud?
+  + Security Vulnerabilities
+  + Increasingly utilized for automation
++ Representational State Transfer (REST) API is a type o modern architectural style of API facilitating machine to machine communication.
+  + Formats: JSON, XML, or HTML
+  + Pass in a noun and a verb
+  + Uses HTTP methods:
+    + GET to fetch data
+    + PUT to alter the state of data (sych as an object, file or block)
+    + POST to create data
+    + DELETE methods to elimitate it
