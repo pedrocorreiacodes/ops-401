@@ -61,3 +61,92 @@ Another benefit of an NIDS is that they detect incidents in real-time, meaning t
   + An NIDS analyzes protocols as they are captured, which means that they face the same protocol based attacks as network hosts. An NIDS can be crashed by protocol analyzer bugs and also invalid data
 + The signature library needs to be continually updated to detect the latest threats
   + An IDS is only as good as its signature library. If it isn't updated frequently, it won't register the latest attacks and it can't alert you about them. Another issue is that your systems are vulnerable until a new threat has been added to the signature library, so the latest attacks will always be a big concern.
+
+### Lecture
+
+------
+
+#### Three-way Handshake
+
++ Client first send a Synchronization packet (SYN)
++ Server accepts and responds with a Synchronization Acknowledgement (SYN-ACK)
++ The client responds with an Acknowledgment (ACK)
++ TCP session is established
++ While coding in how to terminate a connectino during the three way handshake, you can choose between using 'F' for 'FIN' or 'R' for 'RST'.
++ Reffering to TCP FIN VS RST Packets knw the difference:
+  + TCP FIN and RST are two ways to terminate a TCP connection.
+  + RST packets are like forcefully hangin up a telephone call.
+
+#### Threat Taxonomy
+
++ MITRE ATT&CK is a "globally-accessible knowledge base of adversary tactics and tecniques based on real-world observations"
+  + Used for developing threat models and methodologies
+  + A knowledge of adversary behavior
+    + Based on real-world observations
+    + Free and open, globally accessible
+    + A common language
+
+#### Intursion Detection
+
++ What's the purpose of an IDS?
+  + Detect and prevent intrusion in real time on a network
+  + Allows defenders to customize defensive detection rules
++ When should and IDS be deployed?
+  + Private networks with high value asssets
+  + Adequate SecOps coverage to configure rules and respond to IDS alerts
++ What is an IDS?
+  + **Intrusion Detection System** is a deployable security system that uses rules to detect suspicious activity on a network
+  + An **intrusion prevention system** is similar except it attmepts to prevent the network traffic in addition to detecting it using rules
++ IDS products
+  + Snort
+  + Suricata
+  + Trend Micro Deep Security
++ What is Snort?
+  + Snort is an open source NIPS, capable of performing real-time traffic analysis and packet loggin on IP networks
+    + Protocol analysis
+    + Content searching/matching
+    + Detects
+      + Probes
+      + Buffer overflows
+      + Stealth port scans (performed with NMAP and other discovery tools)
+      + CGI attacks
+      + SMB probes
+      + OS fingerprinting attempts
++ Where can an IDS be deployed?
+  + Standalone appliance/VM
+  + Integrated into cloud IaaS provider's systems
+  + Installed on a router/firewall appliance such as pfSense
++ Types
+  + Behavioral detection
+  + Signature-based detection
++ Packet logging
+  + Snort can be run as a packet logger
+  + Novel attacks do not exhibit known signatures in traffic
+  + Novel attacks require traffic inspection before a new IDS rule is generated
+  + This is exactly how the default publicly-available Snort rules are created
++ A **host-based intrusion detection system** **(HIDS)** is an IDS capable of monitoring and analyzing the internals of a computring system as well as the network packets on its network interfaces.
++ Ideally deployed in conjuntion with a NIDS to capture traffic that slipped past the NIDS
++ Example Product: OSSEC
++ OSSEC
+  + Open source HIDS
+  + Log-based IDS
+  + Rootkit and malware detection
+  + Active response
+  + Compliance auditing
+  + File integrity monitoring
+  + System inventory
++ Splunk can be integrated with OSSEC using Splunkbase
++ How does Snor work?
+  + Detects network baseline traffic
+  + Uses rules to detect network anomalies
++ Network topology
+  + Snort requiers a span port (traffic mirroring) for its sniffer interface
+  + PfSense supports traffic mirroring, as implemented in Ops 301
++ Snort Deployment
+  + Typical on premise setup with traffic mirroring.
+  + Needs to be Before any encapsulation/ecryption (VPN)
++ Basic settings are in `snort.conf`
+  + Set your network address first
++ Rules are found in
+  + `/etc/snort/rules/local.rules`
++ 
