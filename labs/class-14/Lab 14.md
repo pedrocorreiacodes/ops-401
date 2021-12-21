@@ -44,7 +44,7 @@ Follow **[THIS](https://frankfu.click/security/ids/how-to-detect-nmap-scan-using
 
 #### Issue the Zenmap test command: `nmap -sn [network IP with CIDR block] -disable-arp-ping`
 
-![Screenshot 2021-12-21 at 16.51.44](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-21 at 16.51.44.png)
+![Screenshot 2021-12-21 at 16.51.44](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-14/Screenshot 2021-12-21 at 16.51.44.png)
 
 #### Observe Snort alerts. What are you seeing, and what is happening?
 
@@ -82,7 +82,9 @@ Additional FTP related rules **[HERE](https://github.com/eldondev/Snort/blob/mas
 
 ------
 
-Register at snort.org, then download the “Registered” rules package at [Snort downloads](https://snort.org/downloads/#rule-downloads).![Screenshot 2021-12-21 at 18.39.07](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-14/Screenshot 2021-12-21 at 18.39.07.png)
+Register at snort.org, then download the “Registered” rules package at [Snort downloads](https://snort.org/downloads/#rule-downloads).
+
+![Screenshot 2021-12-21 at 18.39.07](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-14/Screenshot 2021-12-21 at 18.39.07.png)
 
 ### Part 4: Reporting
 
