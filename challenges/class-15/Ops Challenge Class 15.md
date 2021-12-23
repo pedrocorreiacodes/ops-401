@@ -10,59 +10,59 @@
 
 ###### For a more “black box” experience today, consider deploying [Metasploitable 2](https://information.rapid7.com/download-metasploitable-2017-thanks.html).
 
-![Screenshot 2021-12-23 at 14.00.42](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.00.42.png)
+![Screenshot 2021-12-23 at 14.00.42](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.00.42.png)
 
  The default username and password are “**msfadmin”**.
 
 ##### Ensure that Kali Linux shares a subnet with your target.
 
-![Screenshot 2021-12-23 at 14.15.11](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.15.11.png)
+![Screenshot 2021-12-23 at 14.15.11](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.15.11.png)
 
-![Screenshot 2021-12-23 at 14.20.23](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.20.23.png)
+![Screenshot 2021-12-23 at 14.20.23](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.20.23.png)
 
 ##### Identify the following tools on your Kali Linux distribution
 
 + Patator
 
-![Screenshot 2021-12-23 at 14.24.02](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.24.02.png)
+![Screenshot 2021-12-23 at 14.24.02](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.24.02.png)
 
 - THC Hydra
 
-![Screenshot 2021-12-23 at 14.25.07](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.25.07.png)
+![Screenshot 2021-12-23 at 14.25.07](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.25.07.png)
 
 - Medusa
 
-![Screenshot 2021-12-23 at 14.25.26](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.25.26.png)
+![Screenshot 2021-12-23 at 14.25.26](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.25.26.png)
 
 - Metasploit
 
-![Screenshot 2021-12-23 at 14.25.50](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.25.50.png)
+![Screenshot 2021-12-23 at 14.25.50](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.25.50.png)
 
 - BurpSuite
 
-![Screenshot 2021-12-23 at 14.26.16](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.26.16.png)
+![Screenshot 2021-12-23 at 14.26.16](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.26.16.png)
 
 - Nmap Scripting Engine (NSE)
 
-![Screenshot 2021-12-23 at 14.37.43](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.37.43.png)
+![Screenshot 2021-12-23 at 14.37.43](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.37.43.png)
 
 ##### In Kali, install `ipcalc`.
 
 Run `sudo apt-get update -y` and `sudo apt-get install -y ipcalc`:
 
-![Screenshot 2021-12-23 at 14.41.33](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.41.33.png)
+![Screenshot 2021-12-23 at 14.41.33](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.41.33.png)
 
-![Screenshot 2021-12-23 at 14.42.07](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.42.07.png)
+![Screenshot 2021-12-23 at 14.42.07](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.42.07.png)
 
 ##### Add a new user and set this user’s password to something extremely weak.
 
-![Screenshot 2021-12-23 at 14.51.31](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.51.31.png)
+![Screenshot 2021-12-23 at 14.51.31](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.51.31.png)
 
 We went with the strongest password ever, `12345`.
 
 ##### Validate your SSH server is working by logging in from the Kali VM. Logout when finished testing.
 
-![Screenshot 2021-12-23 at 14.57.51](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 14.57.51.png)
+![Screenshot 2021-12-23 at 14.57.51](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2014.57.51.png)
 
 ### Part 2: Scouting with Nmap
 
@@ -70,17 +70,17 @@ We went with the strongest password ever, `12345`.
 
 #### Generate the IP configuration of your Kali VM.
 
-![Screenshot 2021-12-23 at 15.53.56](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 15.53.56.png)
+![Screenshot 2021-12-23 at 15.53.56](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2015.53.56.png)
 
 #### Run ipcalc against your Kali VM’s IP address to generate some useful network information.
 
-![Screenshot 2021-12-23 at 16.09.13](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 16.09.13.png)
+![Screenshot 2021-12-23 at 16.09.13](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2016.09.13.png)
 
 #### From terminal, issue a nmap command to scan your network for hosts with open SSH ports.
 
 Use the command `nmap -p 22 <subnet> `:
 
-![Screenshot 2021-12-23 at 16.37.31](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 16.37.31.png)
+![Screenshot 2021-12-23 at 16.37.31](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2016.37.31.png)
 
 ##### Identify your target SSH server from the list of hosts.
 
@@ -96,7 +96,7 @@ Target is at IPaddress `192.168.60.3`.
 
 Here I'm using **Medusa**:
 
-![Screenshot 2021-12-23 at 17.41.46](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 17.41.46.png)
+![Screenshot 2021-12-23 at 17.41.46](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2017.41.46.png)
 
 ##### What do you notice about the time required to do this?
 
@@ -104,7 +104,7 @@ It takes a really long time.
 
 ##### This looks like it will take a very long time! Let’s speed this up by switching to a dictionary attack.
 
-![Screenshot 2021-12-23 at 17.05.22](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-15/Screenshot 2021-12-23 at 17.05.22.png)
+![Screenshot 2021-12-23 at 17.05.22](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-15/Screenshot%202021-12-23%20at%2017.05.22.png)
 
 ### Part 4: Reporting
 
