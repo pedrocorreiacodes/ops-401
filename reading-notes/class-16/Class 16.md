@@ -111,3 +111,8 @@ The next level of defense would be auto-remediation of misconfigured resrouces.\
 ##### Conclusion
 
 Misconfiguration can cause catastrophic losses. Critical flaws that enabled such a devastating breach can. be avoided when organizations deploy tools to enforce continuous compliance with cloud security best practices.
+
+### Lecture
+
+------
+
