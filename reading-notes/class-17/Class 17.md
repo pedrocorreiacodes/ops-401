@@ -10,7 +10,7 @@ A VPC is a public loud offering that lets an enterprise establish its own privat
 
 *Having a VPC is like having your own private condominium-no one else has the key, and no one can enter the space without your permission*
 
-A VPC's logical isolation is implemented using virtual network function and security features that give and enterprise customer granuualr control over which IP addresses or applications can access particular resources.
+A VPC's logical isolation is implemented using virtual network function and security features that give and enterprise customer granular control over which IP addresses or applications can access particular resources.
 
 #### Features
 
