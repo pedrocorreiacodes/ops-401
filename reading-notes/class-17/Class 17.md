@@ -83,3 +83,100 @@ Private cloud and virtual private cloud are sometimes - and mistakenly - used in
 ##### VPC vs. public cloud
 
 A virtual private cloud is a single-tenant concept that gives you the opportunity to create a private space within the public cloud's architecture.
+
+### Lecture
+
+------
+
+*We can have our private networks stored in cloud providers*
+
+*They leverage NAT gateways in their private address ranges*
+
++ What exactly is a VPC on AWS?
++ How can a VPC be constructed to allow secure access to both public-facing and private assets?
+  + What are some common topologies we might encounter in field?
+  + What security controls can be utilized to protect cloud assets in the VPC?
+  + What are security best practices in the VPC?
+
+##### Regions and Zone
+
++ The AWS cloud is hosted across three categories of location:
+  + Regions
+  + Availability Zones
+  + Local Zones
++ An **AWS Region** is a geographic area that contains Availabilty Zones:
+  + Example: us-west-2 
++ An **Availability Zone** is an individual data center or set of data centers within a region represented by adding a letter identifier to the region code:
+  + Example: us-west-2a
+  + Launching instances in separate Availability Zones can protect hosted applications against single point of failre scenarios
++ A **Local Zone** is an extensin of an AWS Region that is geographically close to your users
+  + Extend any VPC from the parent AWS Region into Local Zones by creating a new subnet and assigning it to the AWS Local Zone
+  + A Local Zone is represented by an AWS Region code followed by an identifier that indicates the location, for example `us-west-2-lax-1a`.
+
+##### VPC  Basics
+
++ A virtual private cloud (VPC) is a virtual network dedicated to your AWS account
+
+  + Logically isolated form other virtual networks in the AWS Cloud
+
+  *NOTE: difference between logical and physical isolation*
+
+  + Uses familiar networking concepts such as subnets and IP addresses
+
++ Next, let's take a look at some example use cases of a VPC:
+
+  + Public subnet
+  + Public and private subnet 
+  + Public and private subnet connected to corporate LAN
+
+##### VPC Concepts
+
++ A subnet is a range of IP addresses in your VPC, much like a traditional LAN subnet 
+  + Must fit within the scope of your VPC
+  + Example: 192.168.0.0/16 as a VPC would support a 192.168.1.0/24 subnet 
++ A **public subnet** hosts public-facing servers like a web site or file server.
++ A **private subnet** does not allow access to resources from outside the VPC, and is instead meant for internal resources.
++ Reminder: An **instance** in AWS jargon is a virtual machine.
+
+##### VPC - Public Subnet
+
++ A company hosting only public servers, such as a web app, might only need a single public subnet in its VPC
+  + Example:
+    + Code 401 student project
+    + Web application server
+    + Public file server
+
+##### VPC - Public, Private Subnet
+
++ A network address translation (NAT) gateway enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating a conection with those instances.
++ NAT gateways charge for use: be sure to delete your at end of lab time
++ Traffic can be monitored with CloudWatch
+
+##### Hybrid Cloud via VPN
+
++ On-prem corporate networks can extend into the cloud using an IPsec VPN tunnel
++ The VPC can still have a private and public subnet
+  + Put web servers in the public subnet front end
+  + Put private systems in the private subnet backend
++ Private AWS resources may include
+  + ERP software
+  + Databases
+  + Internal web servers
+  + File servers
+
+##### VPC Security Controls
+
++ **Security groups** acts as a virtual firewall for your instance to control inbound and outbound traffic
++ A **Network Access Control List (ACL)** is an optional layer of security for you VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+
+##### VPC Security Best Practices
+
++ Restrict access to your subnets using security groups for your VPC
++ Levarage security groups as the primary mechanism for controlling network access to VPCs
++ Use private subnets for you instances that don't host public-facing services
++ Configure Amazon VPC subnet route tables with the minimal required network routes
++ Remote networks should connect to VPCs using either:
+  + AWS Virtual Private Network (VPN)
+  + AWS Direct Connect
++ Use VPC Flow Logs to monitor the traffic that reaches your instances.
++ Use AWS Security Hub to check for unintended network accessibility from your instances
