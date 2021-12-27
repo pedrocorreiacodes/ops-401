@@ -116,3 +116,117 @@ Misconfiguration can cause catastrophic losses. Critical flaws that enabled such
 
 ------
 
+#### Rainbow Tables
+
++ A precomputed table for catching the output of cryptographic hash functions, usually for cracking password hashes
+  + Optimized, preetermined set of hashes
+  + Much fater to query
+  + Hashing methods determine table type
+  + Don't work on "salted" hashes
+
+#### Salting
+
++ **Salting** is a cryptographic technique that protects passwords against rainbow tables by adding random characters to the plaintext prior to hashing
+  + Generates a totally different hash
+  + Each user should have a unique salt value
+  + Salt enerated by a cryptographically secure pseudo-random number generator
+
+#### Dictionary Attacks
+
++ A dictionary attack is a kind of brute force attack that attempts to guess the password by using a wordlist, such as dictionary or list of common passwords
+
+#### IAM: A High Level View
+
++ Identity and Access Management (IAM) according to ISC2:
+  + 5.1 Control physical and logical access to assets
+  + 5.2 Manage identification and authentication of people, devices, and services
+  + 5.3 Integrate identify as a third-party service
+  + 5.4 Implements and manage authorization mechanisms
+    + PKI
+    + RADIUS
+  + 5.5 Manage the identity and access provisioning lifecycle 
+
+#### AWS IAM
+
++ Why should we practise AWS IAM controls?
+  + IAM users, roles and policies determine what user accounts are allowed to do
+  + Administrator clearances are the primary targets of threat actors (privilege escalation)
++ Example: Capital One data breach
+  + Metadata service had a server side request forgery (SSRF) vulnerability
+  + IAM admin role a major part of this
+
+#### AWS IAM
+
++ The AWS Identity and Acces Management (IAM) services handles authentication and authorization within your AWS account.
+  + Authentication: Logging in as an identity to acess private resources
+  + Authorization: What people and processes are allowed to do:
+  + How?
+    + Users, groups, roles and federated identities
+
+#### AWS IAM Objects
+
++ IAM objects include
+  + Users
+  + Groups
+  + Roles
+  + Policies
+    + ARN
+    + Principal
+    + Actions
+    + Conditions
+
+#### AWS IAM
+
++ Users: Usually a physical person
++ Groups: Functions (admins devops) Team (engineering, design...) Groups contains users.
++ Roles: Internal usage within AWS resource
++ Policies (JSON Documents): Defines what each of the above cn and cannot do
+
+#### AWS IAM Users
+
++ In an AWS account, the root user can perform all operations.
+  + Must be protected using complex passwords and MFA
+  + Not ideal for long term use
+  + IAM users with appropriate clearances should be used for most day to day activities
++ IAM users sign into the AWS Managemnt console using a special UR
+
+#### AWS IAM GROUPS
+
++ An IAM user group is a collecction of IAM users.
+  + Example:
+    + Group called "Admins" with permissions that administrators need
+  + Can contain many users, and a user can belong to multiple user groups
+  + Can't be nested (no groups inside groups)
+  + Can't be identified as a "Principal"
+
+#### AWS IAM Roles
+
++ An IAM roles is a creatable object containing specific permissions
++ Unlike users, roles can be assumed by anyone who needs it
++ Example
+  + Role access between production and development environments
+
+#### AWS IAM Policies
+
++ An inline policy is a policy that's embedded in an IAM identity (a user, group, or role)
+  + Policy is an inherent part of the identity
+  + Create policy and embed into identity
++ An AWS managed policy is a standalone policy that is created and administered by AWS
+  + Standalone policy means that the policy has its own Amazon Resource Name (ARN) that includes the policy name.
+
+#### AWS IAM Policies
+
++ IAM policy objects are stored in JSON.
+  + The `AllowViewAccountInfo` statement allows the user to view account-level information.
+  + Note the elements of a policy
+    + Sid
+    + Effect
+    + Action
+    + Resource
+
+#### Interacting with AWS
+
++ How can a user interact with a AWS?
+  + The AWS Management Console provides a convenient visual web interface for most AWS interactions
+  + The AWS Command Line Interface (CLI) is a unified tools to manage your AWS services.
+    + Supports script execution
