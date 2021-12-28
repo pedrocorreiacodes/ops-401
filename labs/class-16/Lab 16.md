@@ -84,9 +84,9 @@ For the user in the **EC2-Support** group:
 
 ![Screenshot 2021-12-28 at 19.20.20](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-16/Screenshot%202021-12-28%20at%2019.20.20.png)
 
-![Screenshot 2021-12-28 at 19.20.57](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-16/Screenshot 2021-12-28 at 19.20.57.png)
+![Screenshot 2021-12-28 at 19.20.57](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-16/Screenshot%202021-12-28%20at%2019.20.57.png)
 
-![Screenshot 2021-12-28 at 19.21.20](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-16/Screenshot 2021-12-28 at 19.21.20.png)
+![Screenshot 2021-12-28 at 19.21.20](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-16/Screenshot%202021-12-28%20at%2019.21.20.png)
 
 For the user in the **S3-Support** group:
 
