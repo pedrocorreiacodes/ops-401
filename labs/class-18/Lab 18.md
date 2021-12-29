@@ -36,11 +36,11 @@ Search for **S3** in AWS Management Console search box. Select the bucket create
 
 ![Screenshot 2021-12-29 at 19.07.36](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-18/Screenshot%202021-12-29%20at%2019.07.36.png)
 
-![Screenshot 2021-12-29 at 19.08.08](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-29 at 19.08.08.png)
+![Screenshot 2021-12-29 at 19.08.08](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-18/Screenshot 2021-12-29 at 19.08.08.png)
 
-![Screenshot 2021-12-29 at 19.08.21](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-29 at 19.08.21.png)
+![Screenshot 2021-12-29 at 19.08.21](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-18/Screenshot 2021-12-29 at 19.08.21.png)
 
-![Screenshot 2021-12-29 at 19.08.38](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-29 at 19.08.38.png)
+![Screenshot 2021-12-29 at 19.08.38](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-18/Screenshot 2021-12-29 at 19.08.38.png)
 
 ### Part 2: Ingest a Trail with Amazon CloudWatch
 
@@ -66,7 +66,7 @@ Search for **S3** in AWS Management Console search box. Select the bucket create
 
 #### Choose Event Pattern... and all of the objectives after.
 
-![Screenshot 2021-12-29 at 19.31.32](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-29 at 19.31.32.png)
+![Screenshot 2021-12-29 at 19.31.32](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-18/Screenshot 2021-12-29 at 19.31.32.png)
 
 ![Screenshot 2021-12-29 at 19.32.43](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-18/Screenshot%202021-12-29%20at%2019.32.43.png)
 
@@ -96,4 +96,4 @@ Delete and disable anything you don’t need at this point, to keep charges down
 
 ![Screenshot 2021-12-29 at 19.49.32](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-18/Screenshot%202021-12-29%20at%2019.49.32.png)
 
-![Screenshot 2021-12-29 at 19.50.38](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-29 at 19.50.38.png)
+![Screenshot 2021-12-29 at 19.50.38](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-18/Screenshot 2021-12-29 at 19.50.38.png)
