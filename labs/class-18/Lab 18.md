@@ -87,3 +87,13 @@ Search for **S3** in AWS Management Console search box. Select the bucket create
 #### Test and validate IP traffic is being captured using a flow log.
 
 ![Screenshot 2021-12-29 at 19.44.10](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-18/Screenshot 2021-12-29 at 19.44.10.png)
+
+### Part 5: Wrap Up
+
+------
+
+Delete and disable anything you don’t need at this point, to keep charges down. Pay attention to S3 buckets in particular.
+
+![Screenshot 2021-12-29 at 19.49.32](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-18/Screenshot 2021-12-29 at 19.49.32.png)
+
+![Screenshot 2021-12-29 at 19.50.38](/Users/baphomet/Library/Application Support/typora-user-images/Screenshot 2021-12-29 at 19.50.38.png)
