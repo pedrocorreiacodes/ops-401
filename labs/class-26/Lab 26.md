@@ -4,9 +4,9 @@
 
 ------
 
-![Screenshot 2022-01-04 at 12.58.50](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 12.58.50.png)
+![Screenshot 2022-01-04 at 12.58.50](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2012.58.50.png)
 
-![Screenshot 2022-01-04 at 13.20.39](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 13.20.39.png)
+![Screenshot 2022-01-04 at 13.20.39](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2013.20.39.png)
 
 ### Part 2: Analysis of a Sample Data Set
 
@@ -18,28 +18,28 @@
 
 Note that to access Splunk you must go to **http://10.0.0.54:8000**:
 
-![Screenshot 2022-01-04 at 15.02.16](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 15.02.16.png)
+![Screenshot 2022-01-04 at 15.02.16](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2015.02.16.png)
 
 ##### Perform the search `index="class-26"` to view today’s sample data set that has been imported from Mordor Data Sets.
 
 I you're getting this error:
 
-![Screenshot 2022-01-04 at 15.07.25](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 15.07.25.png)
+![Screenshot 2022-01-04 at 15.07.25](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2015.07.25.png)
 
 It means that the Splunk license expired or you have exceeded your license limit too many times.
 To change that option go to `Setting --> Licensing - > change license group `and choose **Free license**, restart Splunk.
 
-![Screenshot 2022-01-04 at 15.09.06](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 15.09.06.png)
+![Screenshot 2022-01-04 at 15.09.06](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2015.09.06.png)
 
-![Screenshot 2022-01-04 at 15.13.54](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 15.13.54.png)
+![Screenshot 2022-01-04 at 15.13.54](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2015.13.54.png)
 
 ##### Identify the three event logs where a network connection was established using powershell.exe
 
 ###### Include a screenshot of Splunk indicating the SPL query you used to exclusively display these three logs according to the stated attributes
 
-![Screenshot 2022-01-04 at 16.01.21](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 16.01.21.png)
+![Screenshot 2022-01-04 at 16.01.21](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2016.01.21.png)
 
-![Screenshot 2022-01-04 at 16.07.23](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 16.07.23.png)
+![Screenshot 2022-01-04 at 16.07.23](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2016.07.23.png)
 
 ##### What port was used throughout the attack?
 
@@ -49,15 +49,15 @@ Port 64545.
 
 **THESHIRE** (Oh those Hobbits...)
 
-![Screenshot 2022-01-04 at 16.13.08](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 16.13.08.png)
+![Screenshot 2022-01-04 at 16.13.08](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2016.13.08.png)
 
 - ##### When did this invocation take place?
 
-  ![Screenshot 2022-01-04 at 16.21.40](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 16.21.40.png)
+  ![Screenshot 2022-01-04 at 16.21.40](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2016.21.40.png)
 
 - ##### What is the location of the executable that this process used?
 
-![Screenshot 2022-01-04 at 16.30.34](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 16.30.34.png)
+![Screenshot 2022-01-04 at 16.30.34](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2016.30.34.png)
 
 #### What TTPs were used in this attack?
 
@@ -79,27 +79,27 @@ Lateral Movement. ID: TA0008
 
 Note that in this case we access Splunk on **http://10.0.0.54:8000**:
 
-![Screenshot 2022-01-04 at 17.15.55](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 17.15.55.png)
+![Screenshot 2022-01-04 at 17.15.55](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2017.15.55.png)
 
 #### Check that regular event logs are being correctly forwarded from Win10 by querying host="DESKTOP-62LU9FS".
 
-![Screenshot 2022-01-04 at 17.16.57](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 17.16.57.png)
+![Screenshot 2022-01-04 at 17.16.57](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2017.16.57.png)
 
 #### Check that Sysmon logs are being correctly forwarded from Win10 by querying `source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"`.
 
-![Screenshot 2022-01-04 at 17.27.25](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 17.27.25.png)
+![Screenshot 2022-01-04 at 17.27.25](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2017.27.25.png)
 
 #### From Windows Server, access `C:\Users\Administrator\Desktop\ops-cyber-401\Invoke-PsExec.ps1` using PowerShell IDE running as Administrator.
 
-![Screenshot 2022-01-04 at 17.30.49](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 17.30.49.png)
+![Screenshot 2022-01-04 at 17.30.49](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2017.30.49.png)
 
 #### Execute this script a few times.
 
-![Screenshot 2022-01-04 at 17.31.59](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 17.31.59.png)
+![Screenshot 2022-01-04 at 17.31.59](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2017.31.59.png)
 
 #### Review your event logs and Sysmon logs. Did this activity generate new logs? Include a screenshot of them.
 
-![Screenshot 2022-01-04 at 18.38.52](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-26/Screenshot 2022-01-04 at 18.38.52.png)
+![Screenshot 2022-01-04 at 18.38.52](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-26/Screenshot%202022-01-04%20at%2018.38.52.png)
 
 No data, I suspect the Windows 10 endpoint provided does not correspond to this particular objective. It's not joined to the CORP domain nor forwarding logs to the SIEM. I need to work on that in the future.
 
