@@ -230,7 +230,7 @@ PowerShell is known to enable significant activity loggin capabilities. These fu
 
 ------
 
-Adversaries may abuse PowerShell commands and scripts for execution **T1069.001**.
+Adversaries may abuse PowerShell commands and scripts for execution **T1059.001**.
 
 + Executing commands
 + Leveraging encoded commands
@@ -251,8 +251,8 @@ Adversaries may abuse PowerShell commands and scripts for execution **T1069.001*
   + Examples of post-exploitation frameworks
     + Powershell Empire
     + Metasploit
-+ Porshell Empire is a pure PowerShell post-exploration agent built on cryptologically-secure communications and a flexible architecture.
-+ Emprie implements the ability to run PowerShell agents without needing powershell.exe
++ Powershell Empire is a pure PowerShell post-exploration agent built on cryptologically-secure communications and a flexible architecture.
++ Empire implements the ability to run PowerShell agents without needing powershell.exe
 + Includes rapidly deployable post-exploitation modules rangin from key loggers to Mimikatz
 + Supports adaptable communications to evade network detection
 + **Invoke-Ps-Exec** is a cmdlet that lets you execute PowerShell and batch/cmd.exe code asynchronously on target Windows computers, using PsExec.exe

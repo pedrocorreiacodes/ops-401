@@ -26,3 +26,8 @@ Although discontinuing Empire is a blow to hackers on both side of the law, ther
 + Covenant
 + Silver
 + Faction
+
+### Lecture
+
+------
+
