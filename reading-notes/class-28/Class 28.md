@@ -60,3 +60,57 @@ There is a four step process to covering our tracks by tamping with logs that ha
 Log tampering is common practice in hacking because hackers will allways want to cover their tracks from the prying eyes of an organizations administrator. It's important for an organization to understand how malicious hackers will operate in practice, so if a hacking breach is detected, log file tampering may be one of their first actions in your systems.
 
 Organization should centrally store their system logs as much as possible to help confound malicious hackers, preferably with a SIEM solution.
+
+### Lecture
+
+------
+
+#### Atomic Testing Cycle
+
++ The Atomic Testing Cycle is a phased approach to improving your cyber defenses by testing them.
++ Levels of security team sophistication:
+  + Level 1: Just starting out, limited resources
+  + Level 2: Starting to mature, some resources
+  + Level 3: Advanced cybersecurity teams and resources
++ Even at level 1, Atomic Tests can add a great deal of value to security efforts
+
+#### Adversary Emulation
+
++ Matured security teams (Level 3) already using the Atomic Testing Cycle should consdier "adversaary emulation"
++ In adversary emulation the red team executes the emulation engagement
+  + Gather threat intel
+  + Extract techniques
+  + Analyze and organize
+  + Develop tools and procedures
+  + Emulate the adversary
+
+#### Team Colors
+
++ Aversary emulation in action
+  + The red team acts as the adversary, attempting to penetrate the network or exploit the network as a rogue internal attacker
+    + In-house security staff or a third-party company
+  + The blue team operates the security system with a view to detecting and repelling the red team
+  + A white team sets the parameters for the exercise
+    + Authorized to monitor or halt the exercise
+  + Purple Team enhances information sharing between the red and blue teams
+    + Maximize each team's effectiveness
+
+#### T1070.001 Log Clearing
+
+ATT&CK details
+
++ ID: T1070.001
++ Sub-technique of: T1070
++ Tactic: Defense Evasion
++ Platforms: Windows
++ System Requirement: Clearing the Windows event logs requires Administrator permissions (by default)
++ Data Sources: Command: Command Execution,Process: OS API Execution
++ Defend Bypasses: Anti Virus, Host Intrusion Prevention Systems, Log Analysis
+
+#### Detecting Log Clearing
+
++ What's our strategy?
+  + Detection by SIEM?
+  + Detection by IDS?
++ Depends on how the attacker has entered
+  + Encrypted C2 traffic vs plaintext C2 traffic
