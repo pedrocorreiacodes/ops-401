@@ -8,7 +8,7 @@
 
 Run `sudo powershell-empire`on the terminal:
 
-![Screenshot 2022-01-05 at 17.48.48](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 17.48.48.png)
+![Screenshot 2022-01-05 at 17.48.48](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2017.48.48.png)
 
 ### Part 2: Setup a Listener
 
@@ -16,15 +16,15 @@ Run `sudo powershell-empire`on the terminal:
 
 To add a listener use the command `uselistener [protocol]`we went with `http`;
 
-![Screenshot 2022-01-05 at 17.54.39](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 17.54.39.png)
+![Screenshot 2022-01-05 at 17.54.39](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2017.54.39.png)
 
 Set up a port with `set Port 80`:
 
-![Screenshot 2022-01-05 at 18.04.05](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.04.05.png)
+![Screenshot 2022-01-05 at 18.04.05](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.04.05.png)
 
 Start listener with the command `execute`:
 
-![Screenshot 2022-01-05 at 18.04.58](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.04.58.png)
+![Screenshot 2022-01-05 at 18.04.58](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.04.58.png)
 
 ### Part 3: Setup a Stager
 
@@ -32,71 +32,71 @@ Start listener with the command `execute`:
 
 First let's disable Windows Defender on the Windows10 machine:
 
-![Screenshot 2022-01-05 at 18.07.31](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.07.31.png)
+![Screenshot 2022-01-05 at 18.07.31](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.07.31.png)
 
 Setup a stager for use with `usestager [stager]`:
 
-![Screenshot 2022-01-05 at 18.13.08](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.13.08.png)
+![Screenshot 2022-01-05 at 18.13.08](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.13.08.png)
 
-![Screenshot 2022-01-05 at 18.14.37](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.14.37.png)
+![Screenshot 2022-01-05 at 18.14.37](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.14.37.png)
 
 Set it to our listener (http):
 
-![Screenshot 2022-01-05 at 18.17.11](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.17.11.png)
+![Screenshot 2022-01-05 at 18.17.11](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.17.11.png)
 
-![Screenshot 2022-01-05 at 18.17.29](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.17.29.png)
+![Screenshot 2022-01-05 at 18.17.29](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.17.29.png)
 
 Use the command `execute`to output the malicious file:
 
-![Screenshot 2022-01-05 at 18.20.59](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.20.59.png)
+![Screenshot 2022-01-05 at 18.20.59](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.20.59.png)
 
 Let's check our file and send it to the Windows10 machine:
 
-![Screenshot 2022-01-05 at 18.22.27](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.22.27.png)
+![Screenshot 2022-01-05 at 18.22.27](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.22.27.png)
 
 If you have this error, click **...** and **Keep anyway**:
 
-![Screenshot 2022-01-05 at 18.37.07](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.37.07.png)
+![Screenshot 2022-01-05 at 18.37.07](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.37.07.png)
 
 Anti-virus might sound the alarm as well, click the alarm and **Allow on device**:
 
-![Screenshot 2022-01-05 at 18.38.13](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.38.13.png)
+![Screenshot 2022-01-05 at 18.38.13](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.38.13.png)
 
-![Screenshot 2022-01-05 at 18.39.19](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.39.19.png)
+![Screenshot 2022-01-05 at 18.39.19](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.39.19.png)
 
-![Screenshot 2022-01-05 at 18.39.37](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.39.37.png)
+![Screenshot 2022-01-05 at 18.39.37](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.39.37.png)
 
 Now we can click it and open it:
 
-![Screenshot 2022-01-05 at 18.41.32](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.41.32.png)
+![Screenshot 2022-01-05 at 18.41.32](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.41.32.png)
 
 It's seems that we have to bypass another alarm, **Run anyway**:
 
-![Screenshot 2022-01-05 at 18.42.28](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.42.28.png)
+![Screenshot 2022-01-05 at 18.42.28](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.42.28.png)
 
 One more step to go, let's disable **Real Time Protection** on **Virus and Threat Settings**:
 
-![Screenshot 2022-01-05 at 18.48.44](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.48.44.png)
+![Screenshot 2022-01-05 at 18.48.44](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.48.44.png)
 
 ![Screenshot 2022-01-05 at 18.49.17](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.49.17.png)
 
 Now as soon as we execute the malicious file on the Windows 10 machine we get this on the Kali machine:
 
-![Screenshot 2022-01-05 at 18.50.47](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.50.47.png)
+![Screenshot 2022-01-05 at 18.50.47](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.50.47.png)
 
-![Screenshot 2022-01-05 at 18.51.19](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.51.19.png)
+![Screenshot 2022-01-05 at 18.51.19](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.51.19.png)
 
 Renaming agent to `class27`:
 
-![Screenshot 2022-01-05 at 18.53.05](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.53.05.png)
+![Screenshot 2022-01-05 at 18.53.05](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.53.05.png)
 
 Using the command `interact` to connect to the shell:
 
-![Screenshot 2022-01-05 at 18.54.31](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.54.31.png)
+![Screenshot 2022-01-05 at 18.54.31](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.54.31.png)
 
 Sending commands to the remote machine:
 
-![Screenshot 2022-01-05 at 18.55.27](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-27/Screenshot 2022-01-05 at 18.55.27.png)
+![Screenshot 2022-01-05 at 18.55.27](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-27/Screenshot%202022-01-05%20at%2018.55.27.png)
 
 ### Part 4: Reporting:
 
