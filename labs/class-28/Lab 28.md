@@ -20,7 +20,7 @@ When it gets downloaded open it and start the installation process and accept th
 
 Click, **Next** and **Next**. Select **Local System**. Configure like this:
 
-![Screenshot 2022-01-10 at 14.19.54](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-28/Screenshot 2022-01-10 at 14.19.54.png)
+![Screenshot 2022-01-10 at 14.19.54](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-28/Screenshot%202022-01-10%20at%2014.19.54.png)
 
 Now configure the **Receiver Indexer** with the IP address of the SIEM VM.
 
