@@ -8,9 +8,9 @@
 
 ##### Download and install [Microsoft Threat Modeling Tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started)
 
-![Screenshot 2022-01-11 at 16.08.44](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-29/Screenshot 2022-01-11 at 16.08.44.png)
+![Screenshot 2022-01-11 at 16.08.44](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-29/Screenshot%202022-01-11%20at%2016.08.44.png)
 
-![Screenshot 2022-01-11 at 16.09.17](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-29/Screenshot 2022-01-11 at 16.09.17.png)
+![Screenshot 2022-01-11 at 16.09.17](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-29/Screenshot%202022-01-11%20at%2016.09.17.png)
 
 ### Part 2: Threat Modeling
 
@@ -18,7 +18,7 @@
 
 #### Generate a threat model DFD using [Microsoft Threat Modeling Tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started)...
 
-![Screenshot 2022-01-11 at 19.16.22](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-29/Screenshot 2022-01-11 at 19.16.22.png)
+![Screenshot 2022-01-11 at 19.16.22](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-29/Screenshot%202022-01-11%20at%2019.16.22.png)
 
 ### Part 3: Communicate Findings
 
