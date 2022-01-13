@@ -22,8 +22,8 @@ def askUserFile():
 
 
 def askUserDir():
-    dir = input("Enter the search directory:\n")
-    return dir
+    directory = input("Enter the search directory:\n")
+    return directory
 
 # search a linux os
 
