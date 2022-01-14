@@ -74,7 +74,7 @@ Rename it to `clamd.conf`and move it up in directory to `ClamAV`:
 
 #### Include a screenshot of the positive detection.
 
-![Screenshot 2022-01-13 at 20.44.37](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-31/Screenshot 2022-01-13 at 20.44.37.png)
+![Screenshot 2022-01-13 at 20.44.37](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-31/Screenshot%202022-01-13%20at%2020.44.37.png)
 
 #### Use ClamAV to scan your target text file from Part 2 using the rule you created in Part 2. Do this by instructing ClamAV to use your YARA rule instead of its signature database. Include a screenshot and explanation of how you achieved this.
 
