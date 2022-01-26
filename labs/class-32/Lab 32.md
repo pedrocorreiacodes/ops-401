@@ -6,15 +6,15 @@
 
 ##### Disable Windows Defender Antivirus in FLARE VM
 
-![Screenshot 2022-01-25 at 18.55.42](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-25 at 18.55.42.png)
+![Screenshot 2022-01-25 at 18.55.42](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-32/Screenshot%202022-01-25%20at%2018.55.42.png)
 
 Go to **Manage settings** and disblae **Real-time protection**:
 
-![Screenshot 2022-01-25 at 18.57.14](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-25 at 18.57.14.png)
+![Screenshot 2022-01-25 at 18.57.14](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-32/Screenshot%202022-01-25%20at%2018.57.14.png)
 
 ##### Open the evidence package named “class-32-traffic.7z” on your FLARE VM desktop using password “malwareinside” to open.
 
-![Screenshot 2022-01-25 at 19.03.32](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-25 at 19.03.32.png)
+![Screenshot 2022-01-25 at 19.03.32](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-32/Screenshot%202022-01-25%20at%2019.03.32.png)
 
 ### Part 2: Malware Traffic Analysis
 
@@ -22,19 +22,19 @@ Go to **Manage settings** and disblae **Real-time protection**:
 
 We can check on the alerts that several downloads took place at 192.168.200.8:
 
-![Screenshot 2022-01-26 at 13.15.57](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-26 at 13.15.57.png)
+![Screenshot 2022-01-26 at 13.15.57](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-32/Screenshot%202022-01-26%20at%2013.15.57.png)
 
 Let's open the `.pcap` to analyze traffic from that ip address:
 
-![Screenshot 2022-01-26 at 13.26.55](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-26 at 13.26.55.png)
+![Screenshot 2022-01-26 at 13.26.55](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-32/Screenshot%202022-01-26%20at%2013.26.55.png)
 
 We can open the HTTP packet corresponding to one of those download to check the mac address and model of the computer that performed that download:
 
-![Screenshot 2022-01-26 at 13.28.53](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-26 at 13.28.53.png)
+![Screenshot 2022-01-26 at 13.28.53](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-32/Screenshot%202022-01-26%20at%2013.28.53.png)
 
 We can also check that there is an unusual amount of `ACK`packets being sent from `205.185.113.20` that probably means that they are performing a `TCP ACK Scan`. It is used to map out firewall rulesets, determining whether they are stateful or not and which ports are filtered.
 
-![Screenshot 2022-01-26 at 13.36.23](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-26 at 13.36.23.png)
+![Screenshot 2022-01-26 at 13.36.23](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-32/Screenshot%202022-01-26%20at%2013.36.23.png)
 
 
 
