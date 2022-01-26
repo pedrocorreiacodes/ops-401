@@ -20,6 +20,22 @@ Go to **Manage settings** and disblae **Real-time protection**:
 
 ------
 
+We can check on the alerts that several downloads took place at 192.168.200.8:
+
+![Screenshot 2022-01-26 at 13.15.57](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-26 at 13.15.57.png)
+
+Let's open the `.pcap` to analyze traffic from that ip address:
+
+![Screenshot 2022-01-26 at 13.26.55](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-26 at 13.26.55.png)
+
+We can open the HTTP packet corresponding to one of those download to check the mac address and model of the computer that performed that download:
+
+![Screenshot 2022-01-26 at 13.28.53](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-26 at 13.28.53.png)
+
+We can also check that there is an unusual amount of `ACK`packets being sent from `205.185.113.20` that probably means that they are performing a `TCP ACK Scan`. It is used to map out firewall rulesets, determining whether they are stateful or not and which ports are filtered.
+
+![Screenshot 2022-01-26 at 13.36.23](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-32/Screenshot 2022-01-26 at 13.36.23.png)
+
 
 
 ### Part 3: Reporting
