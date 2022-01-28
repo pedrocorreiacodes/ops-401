@@ -73,7 +73,7 @@ We can 'bypass' de login for the administrator to access the backoffice.
 
 First install **Vulscan** by following the guide [HERE](https://github.com/scipag/vulscan).
 
-Execute with the command `
+Execute with the command:
 
 ```
 nmap -sV --script=vulscan/vulscan.nse www.example.com
