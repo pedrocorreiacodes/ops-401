@@ -6,7 +6,7 @@
 
 #### This lab requires Web Security Dojo OVA.
 
-![Screenshot 2022-01-31 at 18.53.33](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 18.53.33.png)
+![Screenshot 2022-01-31 at 18.53.33](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2018.53.33.png)
 
 ### Part 2: XSS on DVWA
 
@@ -16,7 +16,7 @@
 
 #### Set DVWA Security to “Low”
 
-![Screenshot 2022-01-31 at 19.02.18](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.02.18.png)
+![Screenshot 2022-01-31 at 19.02.18](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.02.18.png)
 
 #### Perform the following XSS (Reflected) exploits:
 
@@ -24,23 +24,23 @@
 
 `<h1>Pedro</h1>`
 
-![Screenshot 2022-01-31 at 19.07.16](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.07.16.png)
+![Screenshot 2022-01-31 at 19.07.16](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.07.16.png)
 
 ##### Have the site return your name in a different color
 
 `<font color ="pink">Pedro</font>`
 
-![Screenshot 2022-01-31 at 19.10.00](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.10.00.png)
+![Screenshot 2022-01-31 at 19.10.00](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.10.00.png)
 
 ##### Have the site return your name in a popup box
 
 `<script>alert("Pedro")</script>`
 
-![Screenshot 2022-01-31 at 19.12.54](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.12.54.png)
+![Screenshot 2022-01-31 at 19.12.54](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.12.54.png)
 
 ### Set DVWA Security to “Medium”
 
-![Screenshot 2022-01-31 at 19.15.08](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.15.08.png)
+![Screenshot 2022-01-31 at 19.15.08](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.15.08.png)
 
 ### Perform the following XSS (Reflected) exploits:
 
@@ -48,13 +48,13 @@
 
 Just add another atribute to the <script> tag. `<script type="application/javascript">alert("Pedro")</script>`
 
-![Screenshot 2022-01-31 at 19.26.51](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.26.51.png)
+![Screenshot 2022-01-31 at 19.26.51](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.26.51.png)
 
 #### Have the site return the session cookie in a popup box
 
 We can use the document property `document.cookie`. `<script type="application/javascript">alert("Pedro" + document.cookie)</script>`
 
-![Screenshot 2022-01-31 at 19.29.11](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.29.11.png)
+![Screenshot 2022-01-31 at 19.29.11](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.29.11.png)
 
 ### Part 3: Evaluating InsecureWebApp with w3af
 
@@ -64,13 +64,13 @@ We can use the document property `document.cookie`. `<script type="application/j
 
 #### Scan http://insecure.local:8080/insecure/public/Login.jsp
 
-![Screenshot 2022-01-31 at 19.38.55](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.38.55.png)
+![Screenshot 2022-01-31 at 19.38.55](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.38.55.png)
 
 #### Include a screenshot of the rendered response of the XSS vulnerability as discovered in w3af GUI that is associated with the “Forgot Login” page
 
 #### Include a screenshot of the results of the web crawler.
 
-![Screenshot 2022-01-31 at 19.40.57](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-36/Screenshot 2022-01-31 at 19.40.57.png)
+![Screenshot 2022-01-31 at 19.40.57](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-36/Screenshot%202022-01-31%20at%2019.40.57.png)
 
 ### Part 4: Reporting
 
