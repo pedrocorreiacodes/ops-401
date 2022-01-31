@@ -104,3 +104,96 @@ In general, effectively preventing XSS vulnerabilities is likely to involve a co
   + Filter your inputs with a whitelist of allowed characters and use type hints or type casting. Escape your outputs with `htmlentities`and `ENT_QUOTES`for HTML contexts, or JavaScript Unicode escapes for JavaScript contexts.
 + How do I prevent XSS in Java?
   + Filter your inputs with a whitelist of allowed characters and use a library such as Google Guava to HTML-encode your output for HTML context, or use JavaScript Unicode escapes for JavaScript contexts.
+
+### Lecture
+
+------
+
+#### Bannet Grabbing
+
++ Computers love to talk!
+  + We can use this to our advantage anytime we're snooping for vulnerabilitites
++ Banner grabbing is a technique used by hackers and security teams to gain information about a computer system on a network and serices runing on its open ports
+  + Active banner grabbing
+  + Passive banner grabbing
++ NetCat utility is a versatile UNIX tools that can intereact with TCP, UDP, or UNUX-domain sockets
+  + Open TCP connections
+  + Send UDP packets
+  + Listen on arbitrary TCP and UDP ports
+  + Do port scanning
+  + Suports both IPv4 and IPv6
++ Invoked in Linux with `nc`
+
+#### Web Applications
+
++ Programs allowing better communication between business and their customers by way of a web browser interface
+  + Frontend is usually created using languages like HTML, CSS, and Javascript supported by major borwsers.
++ Backend uses a programming stack
+  + LAMP, MEAN, etc.
+
+#### Web Application Security Careers
+
++ Application Security Engineer
++ Web application pentester
++ Web security specialist
+
+#### OWASP TOP 10
+
++ Open Web Application Security Project is an international non-profit organization dedicated to web application security, most known for its list of top ten web application vulnerabilities
++ The OWASP top 10 is a regularly-updated report outlining security concerns for web application security including the 10 most critical risks
+  + Extremley common in security interviews
+  + Memorize and be able to explain how they work
++ OWAS Top 10 Web Application Security Risks (November 2021)
+  1. Broken Access Control
+  2. Cryptographic Failures
+  3. Injection - tricking web server to do bad things
+  4. Insecure Design - Bad infrastucture decisions
+  5. Security Misconfiguration - People that look at policies but they don't really know how it works.
+  6. Vulnerable and Outdated Components - Old software with known vulnerabilities, old dependecies
+  7. Identification and Authentication Failures - Unencrypted credentials going back and forth, not supporting MFA
+  8. Software and data Integrity Failures - DevOps and automations, depolyment pipeline is not secure
+  9. Security Loggin and Monitoring Failures - No logs
+  10. Server-Side Request Forgery (SSRF) - Acess the network and compromise the Web server.
+
+#### HTML
+
++ Hyper Text Markup Language (HTML) is the standard markup language for creating Web pages
+
+#### HTTP Cookies 
+
++ Small piece of data store on the user's computer by the web browser while browsing a website
+  + Authentication cookies are the most common method used by web servers to know whether the user is logged in or not
+  + Tracking coolies, and especially third-party tracking cookies, are commonly used as ways to compile long-term records of individuals browsing histories.
++ Cookies com in many flavors:
+  + Session cookie
+  + Persistent cookie
+  + Secure coolie
+  + HTTP-only cookie
+  + Same-site cookie
+  + Third-party cookie
+  + Supercookie
+  + Zombie cookie
+  + Cookie wall
+
+#### Cross-Site Scripting
+
++ Cross-site scripting (XSS) is a malicious code injection performed on client side of a web app, typically using Javascript and HTML
+  + Some XSS attacks save a malicious script on the web server which can be executed in the victim's browser
++ The main purpose of this attack is to steal the other user's identity data - cookies, session token and other information.
+  + In most of the cases, this attack is being used to steal the other person's cookies
+  + Cookies help us to log in automatically
+  + Therefore with stolen cookies, we can login with theother identities. And this is one of the reasons, why this attack is considered as one of the riskiest attacks.
++ Reflected cross-site scripting arises when the application receives data in an HTTP request and includes that data within the immedite response in an unsafe way
+
+#### Web Security Dojo
+
++ Web Security Dojo is a free open-source self-contained training environment for Web Application Security penetration testing.
++ For learning and practicing web app security testing techniques
++ Self-teaching and skill assessment in self-contained environment
+  + Tools, targets, and documentation
+
+#### DVWA
+
++ Damn Vulneable Web App (DVWA) is a web application deliberately designed for training purposes
+  + DVWA comes preinstalled on Web Security Dojo
++ W3AF is a web Application Attack and Audit Framework
