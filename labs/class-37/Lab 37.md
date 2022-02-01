@@ -6,7 +6,7 @@
 
 #### This lab requires Web Security Dojo VM.
 
-![Screenshot 2022-02-01 at 16.53.48](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 16.53.48.png)
+![Screenshot 2022-02-01 at 16.53.48](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2016.53.48.png)
 
 ### Part 2: Test DVWA using ZAP
 
@@ -24,15 +24,15 @@
 
 Certificate is expired we must renew it:
 
-![Screenshot 2022-02-01 at 16.56.17](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 16.56.17.png)
+![Screenshot 2022-02-01 at 16.56.17](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2016.56.17.png)
 
 Go to **Tools** -> **Options** -> **Dynamic SSL Certificates** and save it:
 
-![Screenshot 2022-02-01 at 17.04.40](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 17.04.40.png)
+![Screenshot 2022-02-01 at 17.04.40](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2017.04.40.png)
 
 Open **Firefox** -> **Open Menu** -> **Preferences** -> **Privacy and Security** -> **Certificates** -> **View Certificates** and **Import...** the certificate:
 
-![Screenshot 2022-02-01 at 17.21.39](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 17.21.39.png)
+![Screenshot 2022-02-01 at 17.21.39](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2017.21.39.png)
 
 
 
@@ -42,15 +42,15 @@ Open **Firefox** -> **Open Menu** -> **Preferences** -> **Privacy and Security**
 
 Let's establish ZAP as a proxy, on Firefox go to **Preferences** -> **General** -> **Network Settings** and select **Manual proxy configuration** :
 
-![Screenshot 2022-02-01 at 17.51.23](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 17.51.23.png)
+![Screenshot 2022-02-01 at 17.51.23](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2017.51.23.png)
 
 On ZAP open **Tools** -> **Options** -> **Local Proxies** (make sure it runs of the same port as the one specified on Firefox):
 
-![Screenshot 2022-02-01 at 17.52.07](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 17.52.07.png)
+![Screenshot 2022-02-01 at 17.52.07](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2017.52.07.png)
 
 ##### Include a screenshot of the traffic updating in ZAP as you are navigating via a proxied Firefox window.
 
-![Screenshot 2022-02-01 at 18.15.04](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 18.15.04.png)
+![Screenshot 2022-02-01 at 18.15.04](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2018.15.04.png)
 
 #### Scan DVWA login page and include a screenshot of the results.
 
@@ -58,45 +58,45 @@ On ZAP open **Tools** -> **Options** -> **Local Proxies** (make sure it runs of 
 
 Add a new **HTTP Session** tab and enable the session corresponding to your current session in Firefox (by checking the cookies and select the corresponding one in ZAP):
 
-![Screenshot 2022-02-01 at 18.40.08](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 18.40.08.png)
+![Screenshot 2022-02-01 at 18.40.08](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2018.40.08.png)
 
-![Screenshot 2022-02-01 at 18.45.33](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 18.45.33.png)
+![Screenshot 2022-02-01 at 18.45.33](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2018.45.33.png)
 
 #### Task 7: Brute force DVWA with a word list. Include the results.
 
 Go into your ZAP Options (at the bottom navigation panel, with the screen plus button), navigate to Forced Browse, and add the Custom Wordlist. Then, right click the **site** -> **attack** -> **forced browse site**:
 
-![Screenshot 2022-02-01 at 18.48.55](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 18.48.55.png)
+![Screenshot 2022-02-01 at 18.48.55](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2018.48.55.png)
 
-![Screenshot 2022-02-01 at 19.05.20](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 19.05.20.png)
+![Screenshot 2022-02-01 at 19.05.20](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2019.05.20.png)
 
 #### Task 8: Use ZAP to bruteforce the DVWA ‘brute-force’ page. What’s the password?
 
 First lets try to login on the DVWA login page:
 
-![Screenshot 2022-02-01 at 19.19.07](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 19.19.07.png)
+![Screenshot 2022-02-01 at 19.19.07](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2019.19.07.png)
 
 Letsfind the GET request and open the Fuzz menu.
 
-![Screenshot 2022-02-01 at 19.19.59](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 19.19.59.png)
+![Screenshot 2022-02-01 at 19.19.59](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2019.19.59.png)
 
 Highlight the password we attempted and add a wordlist. This selects the area of the request you wish to replace with other data.
 
-![Screenshot 2022-02-01 at 19.27.04](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 19.27.04.png)
+![Screenshot 2022-02-01 at 19.27.04](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2019.27.04.png)
 
 #### Task 9: Install the bugcrowd HUNT extensions for OWASP ZAP. Inluce a screenshot of the installed HUNT scripts.
 
 First let's clone the repo: ` git clone https://github.com/bugcrowd/HUNT `:
 
-![Screenshot 2022-02-01 at 19.31.59](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 19.31.59.png)
+![Screenshot 2022-02-01 at 19.31.59](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2019.31.59.png)
 
 Then in ZAP click the “Manage Add-Ons” icon. From the Marketplace install “Python Scripting” and “Community Scripts”.
 
-![Screenshot 2022-02-01 at 19.35.14](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 19.35.14.png)
+![Screenshot 2022-02-01 at 19.35.14](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2019.35.14.png)
 
 In ZAP Options, under Passive Scanner, make sure “Only scan messages in scope” is enabled. Then hit OK.
 
-![Screenshot 2022-02-01 at 19.38.08](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-37/Screenshot 2022-02-01 at 19.38.08.png)
+![Screenshot 2022-02-01 at 19.38.08](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-37/Screenshot%202022-02-01%20at%2019.38.08.png)
 
 # Cross Site Scripting (XSS)
 
