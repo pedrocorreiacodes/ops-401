@@ -1,23 +1,45 @@
 ## Class 37
 
-### Reading: What is Burp Suite?
+### Reading: ZAP - Getting Started
 
 ------
 
-Burp Suite is a suite of Tools from PortSwigger designed ot aid in the penetration testing of web applications over both HTTP and HTTPS. The primary tools is a proxy designed to allow the analysis and editing of web traffic. The proxy can intercept web requests and responses and read and edit them in real-time before they reach their respective destinations.
+#### Security Testing Basics
 
-The proxy itself allows you to configure which domains have their web traffic intercepted and what sort of traffic is shown. For example, intercepting web requests is helpful as you can edit them to test how the wesit reacts to unusual requests, howeber intercepting the responses there's no real point in editing the.
+Software security testing is the process of assessing and testing a system to discover risks and vulnerabilitites of the system and its data. There is no universal terminolog, aassessments is the analysis and discovery o vulnerabilitites without attempting to actually exploit those vulnerabilitites.
 
-Many of the tools included in Burp Suite are designed to integrate with the main proxy and can have requests imported to them.
+Security testing:
 
-+ Intruder allows you to import a request and then configure arrange of payloads to attempt and can then run through them automatically.
-+ Repeater allows you to import a web request and them make manual modification to it and see the response side by side allowing you to make minor adjustments to attempted exploits and easily see if it's working.
-+ A dashboard feature shows a list of identified issues, allthough these need to be manually checked for false positives.
-+ Sequencer is designed to analyse the randomness of data such as sessions IDs, CSRF tokens, and password reset token. The analysis requires more than 100 samples but can identify weaknesses in how supposedly random values are being generated.
-+ Decoder allows you to decode strings from a range of encoding standards as well as allowing you to encode data again.
-+ Comparer allows you to compare two strings to check for minor differences.
++ **Vulnerability Assessment** - The system is scanned an analyzed for security issues.
++ **Penetration Testing** - The system undergoes analysis and attack from simulated malicious attackers.
++ **Runtime Testing** - The system undegoes analysis and security testing from an end-user.
++ **Code Review** - The system code undergoes a detailed revieew and analysis looking specifically for security vulnerabilities.
 
-A broad range of community-written extensios is available for free from within the app, although some require features limited to the paid version of Burp Suite. 
+Risk assessment is not included in this list because risk assessment is not actually a test but rahter the analysis of the perceived severity of different risks and any mitigation steps for those risks.
+
+#### More About Penetration Testing
+
+Pentesting is carried out as if the tester was a malicious external attacker with a goal of breaking into the system and either stealing data or carrying out some sort of denial-of-service atack.
+
+Pentesting has the advantage of being more accurate because it has fewer false positives (result that report a vulnerability that isn't actually present), but can be time-consuming to run.
+
+Pentesting is also used to test defense mechanism, verify response plans, and confirm security policy adherence.
+
+Automated pentesting is an important part of continuous integration validation. It helps to uncover new vulnerabilities as well as regressions for previous vulnerabilities in an environment which quickly changes, and for which the development may be highly collaborative and distributed.
+
+#### The Pentesting Process
+
+Both manual and automated pentesting are used, often in conjunction, to test everything from servers, to networks, to devices, to endpoints. This document focuses on web application or web site pentesting.
+
+Pentesting usually follows these stages:
+
++ Explore - The tester atempts to learn about the system being tested. This includes trying to determine what software is in use, what endpoints exists, what patches are installed, etc. It also includes searching the site for hidden content, known vulnerabilities, and other indications of weakness.
++ Attack - The tester attempts to exploit the known or suspected vulnerabilitites to prove they exist.
++ Repot - The tester reports back the results of their testing, including the vulnerabilities, how they exploited them and how difficult the exploits were, an the severity of the exploitation.
+
+##### Pentesting Goals
+
+**The ultimate goal of pentesting is to search for vulnerabilities so that these vulnerabilities can be addressed**. It can also verify that a system is not vulnerable to a known class or specific defect; or, in the case of vulnerabilities that have been reported as fixed, verify that the system is no longer vulnerable to that defect
 
 ### Lecture
 
