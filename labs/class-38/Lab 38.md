@@ -133,7 +133,7 @@ To get around this, we will use a character bypass called "**Poison Null Byte**"
 
 As we can download it using the url, we will need to encode this into a url encoded format.
 
-The Poison Null Byte will now look like this: ***%2500**.* Adding this and then a **.md** to the end will bypass the 403 error!
+The Poison Null Byte will now look like this: **%2500**.* Adding this and then a **.md** to the end will bypass the 403 error!
 
 ![Screenshot 2022-02-02 at 19.52.45](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 19.52.45.png)
 
@@ -164,3 +164,60 @@ A good way to stop users from accessing this is to only load parts of the applic
 
 **Question #2: View another user's shopping basket!**
 
+Login to the Admin account and click on 'Your Basket'. Make sure Burp is running so you can capture the request!
+
+Forward each request until you see: GET /rest/basket/1 HTTP/1.1:
+
+![Screenshot 2022-02-03 at 10.47.58](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 10.47.58.png)
+
+change the number **1** after /basket/ to **2**
+
+It will now show you the basket of UserID 2. You can do this for other UserIDs as well, provided that they have one:
+
+![Screenshot 2022-02-03 at 11.02.02](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 11.02.02.png)
+
+![Screenshot 2022-02-03 at 11.03.37](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 11.03.37.png)
+
+
+**Question #3: Remove all 5-star reviews!**
+
+Navigate to the [ ](http://machine_ip/#/administration)[http://MACHINE_IP](http://machine_ip/#/administration)[/#/administration](http://machine_ip/#/administration) page again and click the bin icon next to the review with 5 stars!
+
+![Screenshot 2022-02-03 at 11.07.05](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 11.07.05.png)
+
+####  Task 7 Where did that come from?
+
+XSS or Cross-site scripting is a vulnerability that allows attackers to run javascript in web applications. 
+
+**Question #1:** **Perform a DOM XSS!**
+
+`<iframe src="javascript:alert(`xss`)">`
+
+Inputting this into the **search bar** will trigger the alert.
+
+![Screenshot 2022-02-03 at 11.34.22](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 11.34.22.png)
+
+
+**3 Question #3: Perform a reflected XSS!**
+
+First, we are going to need to be on the right page to perform the reflected XSS!
+
+Login into the admin account and navigate to the ‘Order History’ page.
+
+From there you will see a "Truck" icon, clicking on that will bring you to the track result page. You will also see that there is an id paired with the order.   
+
+We will use the iframe XSS, <iframe src="javascript:alert(`xss`)">, in the place of the 5267-f73dcd000abcc353
+
+The server will have a lookup table or database (depending on the type of server) for each tracking ID. As the 'id' parameter is not sanitised before it is sent to the server, we are able to perform an XSS attack.
+
+### Part 3: Reporting
+
+------
+
+Define the below terms in your own words:
+
+- Injection - An injection attack is a kind of attack where the threat actor supplies the program with untrued input, often with malicious intent.
+- Broken authentication - Are vulnerabilitites in an online platform or application that allows threat actors to bypass the login security and gain access to all the privilieges owned by the hacked user.
+- Sensitive data exposure - Letting unauthorized parties access stored or transmitted sensitive information. Any information tjat is meant to be protected agains unauthorized access.
+- Broken access control - Vulnerability that allows attackers to access resources beloging to other users.
+- XSS - Cross Site Scripting, a vulnerability that allows the threat actor to run rogue code in a program or application
