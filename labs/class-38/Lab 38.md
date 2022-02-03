@@ -6,23 +6,23 @@
 
 This lab requires Web Security Dojo VM.
 
-![Screenshot 2022-02-02 at 12.51.44](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 12.51.44.png)
+![Screenshot 2022-02-02 at 12.51.44](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2012.51.44.png)
 
 Juice Shop is manually launched via shell script from the start menu > targets section.
 
-![Screenshot 2022-02-02 at 12.52.52](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 12.52.52.png)
+![Screenshot 2022-02-02 at 12.52.52](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2012.52.52.png)
 
 Access the Juice Shop page to verify it is up.
 
-![Screenshot 2022-02-02 at 14.11.06](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 14.11.06.png)
+![Screenshot 2022-02-02 at 14.11.06](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2014.11.06.png)
 
 Install Git with `sudo apt update` then `sudo apt install git`.
 
-![Screenshot 2022-02-02 at 14.12.32](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 14.12.32.png)
+![Screenshot 2022-02-02 at 14.12.32](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2014.12.32.png)
 
 Git clone [SecLists](https://github.com/danielmiessler/SecLists) to your Web Security Dojo.
 
-![Screenshot 2022-02-02 at 14.17.41](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 14.17.41.png)
+![Screenshot 2022-02-02 at 14.17.41](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2014.17.41.png)
 
 ### Part 2: TryHackMe Burp Suite Lab
 
@@ -40,13 +40,13 @@ Nothing to do here but to review the primer and move forward into Task 2.
 
 The reviews show each user's email address. Which, by clicking on the Apple Juice product, shows us the Admin email:
 
-![Screenshot 2022-02-02 at 15.51.04](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 15.51.04.png)
+![Screenshot 2022-02-02 at 15.51.04](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2015.51.04.png)
 
 We can now see the search parameter after the /#/search? the letter q:
 
-![Screenshot 2022-02-02 at 15.54.10](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 15.54.10.png)
+![Screenshot 2022-02-02 at 15.54.10](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2015.54.10.png)
 
-![Screenshot 2022-02-02 at 15.55.49](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 15.55.49.png)
+![Screenshot 2022-02-02 at 15.55.49](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2015.55.49.png)
 
 #### Task 3: Inject the juice
 
@@ -56,7 +56,7 @@ How did you log into Bender’s account?
 
 After we navigate to the login page, enter some data into the email and password fields.  Before clicking submit, make sure Intercept mode is on. This will allow us to see the data been sent to the server.
 
-![Screenshot 2022-02-02 at 16.36.49](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 16.36.49.png)
+![Screenshot 2022-02-02 at 16.36.49](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2016.36.49.png)
 
 Now let's change the "**a**" next to the email to: **' or 1=1--** and forward it to the server.
 
@@ -66,17 +66,17 @@ Now let's change the "**a**" next to the email to: **' or 1=1--** and forward it
 
 Use in the `email`field -> `' or 1=1--`
 
-![Screenshot 2022-02-02 at 17.40.29](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 17.40.29.png)
+![Screenshot 2022-02-02 at 17.40.29](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2017.40.29.png)
 
-![Screenshot 2022-02-02 at 17.24.01](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 17.24.01.png)
+![Screenshot 2022-02-02 at 17.24.01](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2017.24.01.png)
 
 **Question #2: Log into the Bender account!**
 
 Similar to what we did in Question #1, we will now log into Bender's account! Capture the login request again, but this time we will put: bender@juice-sh.op'-- as the email. 
 
-![Screenshot 2022-02-02 at 17.44.40](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 17.44.40.png)
+![Screenshot 2022-02-02 at 17.44.40](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2017.44.40.png)
 
-![Screenshot 2022-02-02 at 17.45.49](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 17.45.49.png)
+![Screenshot 2022-02-02 at 17.45.49](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2017.45.49.png)
 
 #### Task 4: Who broke my lock?
 
@@ -89,15 +89,15 @@ We will look at exploiting authentication through different flaws. Mechanisms th
 
  Let's try a brute-force attack. Capture a login request, but instead of sending it through the proxy, we will send it to Intruder.
 
-![Screenshot 2022-02-02 at 19.08.17](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 19.08.17.png)
+![Screenshot 2022-02-02 at 19.08.17](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2019.08.17.png)
 
 Let's load the **best1050.txt from Seclists** to Burp. Go to **Payloads** -> **Payload Options** -> **Load ...**:
 
-![Screenshot 2022-02-02 at 19.12.46](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 19.12.46.png)
+![Screenshot 2022-02-02 at 19.12.46](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2019.12.46.png)
 
 Click **Start Attack**:
 
-![Screenshot 2022-02-02 at 19.26.02](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 19.26.02.png)
+![Screenshot 2022-02-02 at 19.26.02](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2019.26.02.png)
 
 Password is `admin123`.
 
@@ -105,7 +105,7 @@ Password is `admin123`.
 
 The reset password mechanism can also be exploited.
 
-![Screenshot 2022-02-02 at 19.34.50](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 19.34.50.png)
+![Screenshot 2022-02-02 at 19.34.50](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2019.34.50.png)
 
 Ssecurity question : Samuel.
 
@@ -119,11 +119,11 @@ Most of the time, data protection is not applied consistently across the web app
 
 Navigate to the **About Us** page, and hover over the *"Check out our terms of use"*. You will see that it links to [http://MACHINE_IP](http://machine_ip/ftp/legal.md)[/ftp/legal.md](http://machine_ip/ftp/legal.md). Navigating to that **/ftp/** directory reveals that it is exposed to the public.
 
-![Screenshot 2022-02-02 at 19.41.06](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 19.41.06.png)
+![Screenshot 2022-02-02 at 19.41.06](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2019.41.06.png)
 
 **Question #2:** **Log into MC SafeSearch's account!**
 
-![Screenshot 2022-02-02 at 19.45.27](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 19.45.27.png)
+![Screenshot 2022-02-02 at 19.45.27](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2019.45.27.png)
 
 **Question #3: Download the Backup file!**
 
@@ -135,7 +135,7 @@ As we can download it using the url, we will need to encode this into a url enco
 
 The Poison Null Byte will now look like this: **%2500**.* Adding this and then a **.md** to the end will bypass the 403 error!
 
-![Screenshot 2022-02-02 at 19.52.45](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 19.52.45.png)
+![Screenshot 2022-02-02 at 19.52.45](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2019.52.45.png)
 
 ####  Task 6 Who's flying this thing?
 
@@ -160,7 +160,7 @@ As this is an Administrator page, it makes sense that we need to be in the Admin
 
 A good way to stop users from accessing this is to only load parts of the application that need to be used by them. This stops sensitive information such as an admin page from been leaked or viewed.
 
-![Screenshot 2022-02-02 at 20.07.35](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-02 at 20.07.35.png)
+![Screenshot 2022-02-02 at 20.07.35](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-02%20at%2020.07.35.png)
 
 **Question #2: View another user's shopping basket!**
 
@@ -168,22 +168,22 @@ Login to the Admin account and click on 'Your Basket'. Make sure Burp is running
 
 Forward each request until you see: GET /rest/basket/1 HTTP/1.1:
 
-![Screenshot 2022-02-03 at 10.47.58](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 10.47.58.png)
+![Screenshot 2022-02-03 at 10.47.58](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-03%20at%2010.47.58.png)
 
 change the number **1** after /basket/ to **2**
 
 It will now show you the basket of UserID 2. You can do this for other UserIDs as well, provided that they have one:
 
-![Screenshot 2022-02-03 at 11.02.02](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 11.02.02.png)
+![Screenshot 2022-02-03 at 11.02.02](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-03%20at%2011.02.02.png)
 
-![Screenshot 2022-02-03 at 11.03.37](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 11.03.37.png)
+![Screenshot 2022-02-03 at 11.03.37](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-03%20at%2011.03.37.png)
 
 
 **Question #3: Remove all 5-star reviews!**
 
 Navigate to the [ ](http://machine_ip/#/administration)[http://MACHINE_IP](http://machine_ip/#/administration)[/#/administration](http://machine_ip/#/administration) page again and click the bin icon next to the review with 5 stars!
 
-![Screenshot 2022-02-03 at 11.07.05](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 11.07.05.png)
+![Screenshot 2022-02-03 at 11.07.05](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-03%20at%2011.07.05.png)
 
 ####  Task 7 Where did that come from?
 
@@ -195,7 +195,7 @@ XSS or Cross-site scripting is a vulnerability that allows attackers to run java
 
 Inputting this into the **search bar** will trigger the alert.
 
-![Screenshot 2022-02-03 at 11.34.22](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-38/Screenshot 2022-02-03 at 11.34.22.png)
+![Screenshot 2022-02-03 at 11.34.22](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-38/Screenshot%202022-02-03%20at%2011.34.22.png)
 
 
 **3 Question #3: Perform a reflected XSS!**
