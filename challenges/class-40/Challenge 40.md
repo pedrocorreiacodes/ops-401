@@ -135,4 +135,4 @@ Click on **Report** select your format and template and then **Generate Report**
 
 ![Screenshot 2022-02-07 at 13.18.04](/Users/baphomet/Desktop/Screenshot 2022-02-07 at 13.18.04.png)
 
-Click [HERE[(https://github.com/pedrocorreiacodes/ops-401/tree/master/screenshots/class-40#:~:text=Web_Application_Vulnerability_Scan_ypi577.pdf) for the report.
+Click [HERE](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Web_Application_Vulnerability_Scan_ypi577.pdf) for the report.
