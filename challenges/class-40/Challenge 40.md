@@ -13,7 +13,7 @@ This lab requires the class-40-45-kali.ova and class-40-target.ova imported into
     - 128MB Video Memory
     - Network: NAT Network
 
-![Screenshot 2022-02-07 at 11.01.21](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.01.21.png)
+![Screenshot 2022-02-07 at 11.01.21](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.01.21.png)
 
 - Import class-40-target.ova into your local Virtualbox Manager.
   - Assign system resources. Suggested values:
@@ -21,25 +21,25 @@ This lab requires the class-40-45-kali.ova and class-40-target.ova imported into
     - 1 CPU
     - 12MB Video Memory
 
-![Screenshot 2022-02-07 at 11.14.29](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.14.29.png)
+![Screenshot 2022-02-07 at 11.14.29](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.14.29.png)
 
 + Check that the Nessus service is running by accessing the terminal and entering `sudo systemctl status nessusd`
 
-![Screenshot 2022-02-07 at 11.16.40](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.16.40.png)
+![Screenshot 2022-02-07 at 11.16.40](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.16.40.png)
 
 - Access the Nessus web portal by following the shortcut “Nessus” in the “class-40” directory.
 
-![Screenshot 2022-02-07 at 11.17.14](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.17.14.png)
+![Screenshot 2022-02-07 at 11.17.14](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.17.14.png)
 
 - Obtain an activation code for Nessus Essentials. Activate your copy of Nessus and note the credentials for future reference.
 
-![Screenshot 2022-02-07 at 11.13.16](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.13.16.png)
+![Screenshot 2022-02-07 at 11.13.16](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.13.16.png)
 
-![Screenshot 2022-02-07 at 11.24.19](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.24.19.png)
+![Screenshot 2022-02-07 at 11.24.19](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.24.19.png)
 
 - Now that you have Nessus working on a stable baseline copy of class-40-45-kali.ova, this is probably a good time to take a VM snapshot with Virtualbox in case anything goes wrong later.
 
-![Screenshot 2022-02-07 at 11.18.19](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.18.19.png)
+![Screenshot 2022-02-07 at 11.18.19](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.18.19.png)
 
 ### Part 2: Scanning the Target
 
@@ -52,13 +52,13 @@ Perform a basic network scan to identify your target IP.
 - What does the basic network scan do?
 - What is the IP address of your target system (class-40-target.ova)?
 
-![Screenshot 2022-02-07 at 11.38.19](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.38.19.png)
+![Screenshot 2022-02-07 at 11.38.19](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.18.19.png)
 
-![Screenshot 2022-02-07 at 11.41.33](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.41.33.png)
+![Screenshot 2022-02-07 at 11.41.33](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.41.33.png)
 
 Select it and click **Launch** on the right:
 
-![Screenshot 2022-02-07 at 11.43.02](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.43.02.png)
+![Screenshot 2022-02-07 at 11.43.02](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.43.02.png)
 
 ![Screenshot 2022-02-07 at 11.51.48](/Users/baphomet/Desktop/Screenshot 2022-02-07 at 11.51.48.png)
 
@@ -70,19 +70,19 @@ Nessus has a feature called “policies,” which are essentially scan templates
 
 - Create a new policy named “Host Discovery Policy.”
 
-![Screenshot 2022-02-07 at 11.58.32](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.58.32.png)
+![Screenshot 2022-02-07 at 11.58.32](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.58.32.png)
 
-![Screenshot 2022-02-07 at 11.59.03](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 11.59.03.png)
+![Screenshot 2022-02-07 at 11.59.03](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2011.59.03.png)
 
 - Configure the policy to perform a host enumeration scan of the targeted network.
 
-![Screenshot 2022-02-07 at 12.01.20](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 12.01.20.png)
+![Screenshot 2022-02-07 at 12.01.20](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2012.01.20.png)
 
 + Create and execute a new scan that uses this policy.
 
-![Screenshot 2022-02-07 at 12.12.49](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 12.12.49.png)
+![Screenshot 2022-02-07 at 12.12.49](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2012.12.49.png)
 
-![Screenshot 2022-02-07 at 12.17.16](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 12.17.16.png)
+![Screenshot 2022-02-07 at 12.17.16](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2012.17.16.png)
 
 Create two additional policies and execute new scans for each one:
 
@@ -90,15 +90,15 @@ Create two additional policies and execute new scans for each one:
 
 When creating the Policy go to **Settings** -> **Discovery** -> **Scan Type** and select **OS Identification**:
 
-![Screenshot 2022-02-07 at 12.18.42](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 12.18.42.png)
+![Screenshot 2022-02-07 at 12.18.42](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2012.18.42.png)
 
-![Screenshot 2022-02-07 at 12.48.30](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 12.48.30.png)
+![Screenshot 2022-02-07 at 12.48.30](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2012.48.30.png)
 
 - Port scan policy (common ports)
 
-![Screenshot 2022-02-07 at 12.49.35](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 12.49.35.png)
+![Screenshot 2022-02-07 at 12.49.35](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2012.49.35.png)
 
-![Screenshot 2022-02-07 at 12.53.47](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 12.53.47.png)
+![Screenshot 2022-02-07 at 12.53.47](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2012.53.47.png)
 
 #### Answer the following questions:
 
@@ -115,19 +115,19 @@ Nessus is quite versatile in that it can be a web application vulnerability scan
 
 - Scan today’s target system, class-40-target.ova.
 
-  ![Screenshot 2022-02-07 at 13.01.38](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 13.01.38.png)
+  ![Screenshot 2022-02-07 at 13.01.38](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2013.01.38.png)
 
 + Identify the highest severity vulnerability and explain how it works in your own words.
 
-![Screenshot 2022-02-07 at 13.03.48](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 13.03.48.png)
+![Screenshot 2022-02-07 at 13.03.48](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2013.03.48.png)
 
-![Screenshot 2022-02-07 at 13.05.01](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 13.05.01.png)
+![Screenshot 2022-02-07 at 13.05.01](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2013.05.01.png)
 
 The scan shows a high severity vulnerability. The app is vulnerable to a sql injection attack.
 
 + What other vulnerabilities may exist on the target system’s web app?
 
-  ![Screenshot 2022-02-07 at 13.16.51](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 13.16.51.png)
+  ![Screenshot 2022-02-07 at 13.16.51](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2013.16.51.png)
 
 + Generate an executive summary PDF report from Nessus and upload it to your Google Docs. Include a link to it in your submission doc.
 
@@ -135,4 +135,4 @@ Click on **Report** select your format and template and then **Generate Report**
 
 ![Screenshot 2022-02-07 at 13.18.04](/Users/baphomet/Desktop/Screenshot 2022-02-07 at 13.18.04.png)
 
-Click HERE for the report.
+Click [HERE[(https://github.com/pedrocorreiacodes/ops-401/tree/master/screenshots/class-40#:~:text=Web_Application_Vulnerability_Scan_ypi577.pdf) for the report.
