@@ -133,6 +133,6 @@ The scan shows a high severity vulnerability. The app is vulnerable to a sql inj
 
 Click on **Report** select your format and template and then **Generate Report**:
 
-![Screenshot 2022-02-07 at 13.18.04](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-40/Screenshot 2022-02-07 at 13.18.04.png)
+![Screenshot 2022-02-07 at 13.18.04](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Screenshot%202022-02-07%20at%2013.18.04.png)
 
 Click [HERE](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-40/Web_Application_Vulnerability_Scan_ypi577.pdf) for the report.
