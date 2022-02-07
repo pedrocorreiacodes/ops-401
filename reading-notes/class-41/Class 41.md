@@ -49,7 +49,86 @@ In this scenario, both the tester and security personnel work together and keep 
 
 
 
-#### Lecture
+### Lecture
 
 ------
+
+#### Vulnerability Analyst 
+
+Security professional that detects weakness in networks and then takes measures to help the organization correct and strengthen the system's security levels.
+
++ Develops risk-based mitifation strategies for networks, operating system, and applications
++ Organizate network-based scans to identify possible network security attacks and host-based scans to identify vulnerabilities in workstations, servers, and other network hosts.
+
+#### Vulnerability Assessments
+
++ A vulnerability is a weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat source
+  + Important to differentiate vulnerability, expliot, and risk
+  + Not all vulnerabilitites are likely to be exploited or high risk
+  + Prioritize your vulnerabilitites
++ Common Weakness Enumeration (CWE) is a community-developed list of software and hardware weakness types
++ Tenable's Nessus is a commercial vulnerability scanning software
+
+#### Pentester Careers
+
++ Penetration testers perform simulated cyber attacks against your computer system to check for exploitable vulnerabilities and communicate findings
++ Not entry-level
++ Why do organizations request penetration testing?
+  + Compliance
+  + Confidentiality, revenue, goodwill
+  + Verify secure configuration
+  + Security training
+  + Testing new technology
++ An ethical hacker is someone who performs the legal exploitations of vulnerabilitites for companies with their express permission
+  + Not a professional job title
+  + Not a useful industry terminology
++ A penetration test is formalized hacking process where vulnerabilities are discovered and exploited
+  + Simulate real-world attacks
+  + Findings are documented and reported
++ Security testing
+  + Not a penetration test
+  + Test software behavior for security problems
+  + Bring an outdated system up to date
+  + Software security testing during SDLC
++ Vulnerability testing
+  + Not a penetration test
+  + Finding vulnerabilitites but not exploiting them
+
+#### Phase  1: Pan & Recon
+
++ Planning
+  + How will we approach this pentest?
+  + What does the client need from us?
+  + Report deliverables
+    + Offensive Security Pentest Report
+  + Scope of work
+    + Rules of engagement ditacte in clear, unambiguous terms the limits to the pentest engagement
+    + Example: Allowed to access a system but not chane it or damage it
+  + Pentesters perform reconnaissance against their taget in order to gain more information aout what they're about to attack
+  + Types of reconnaissance
+    + Passive: OSINT, observing, and sniffing. Information Gathering
+    + Active: Interacting with target and probing network for weaknesses
+  + Desired intelligence and outcomes
+    + Company background
+    + Document: Penetration testing plan
+    + Penetration test objectives and scope
+    + Objectives
+      + List exactly what will be tested
+      + Mutually agreed boundaries
+      + Exclusions and constraints
+      + Downtime and affected parties
+      + Approach and documentation
+      + Key findings
+      + Business metrics and impact
+
+#### Maltego
+
++ How can we perform target invesigation to learn more about a company and its web footprint?
++ "Maltego is an open source intelligence (OSINT) amd graphical link analysis tool for gathering and connecting information for investigative tasks"
+  + Desktop client
+  + Supports data integration
++ A Maltego object/entity is either:
+  + A person, company, domain, etc.
+  + An artifact of online activity
++ A Maltego transform helps the user discover relationships to existing entities
 
