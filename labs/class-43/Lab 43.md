@@ -99,7 +99,7 @@ All of the known IP address share the same MAC address:
 
 Got the Preferences menu and inside the menu go to **Protocols** and slide down to select **TLS**. Click on **Browse** and select our key log file:
 
-![Screenshot 2022-02-14 at 17.47.15](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-43/Screenshot 2022-02-14 at 17.47.15.png)
+![Screenshot 2022-02-14 at 17.47.15](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-43/Screenshot%202022-02-14%20at%2017.47.15.png)
 
 Once you have clicked “OK,” when using the basic filter, your Wireshark column display will list the decrypted HTTP requests under each of the HTTPS lines:
 
