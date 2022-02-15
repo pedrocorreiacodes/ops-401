@@ -8,7 +8,7 @@ First, import the class-44-target.ova into Virtualbox. Assign it to NAT Network 
 
 Next, import final-proj-kali-linux.ova into Virtualbox. Load all pentest scripts into this VM. Assign it to a NAT Network alongside your target box. You may opt to use your own existing Kali Linux instead, if you prefer.
 
-![Screenshot 2022-02-15 at 15.29.40](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 15.29.40.png)
+![Screenshot 2022-02-15 at 15.29.40](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2015.29.40.png)
 
 ### Part 2: Enumeration
 
@@ -18,9 +18,9 @@ Now that you have imported the target system to Virtualbox, first determine its 
 
 Let's use Nmap to perform host discovery.
 
-![Screenshot 2022-02-15 at 16.16.58](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 16.16.58.png)
+![Screenshot 2022-02-15 at 16.16.58](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2016.16.58.png)
 
-![Screenshot 2022-02-15 at 16.18.37](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 16.18.37.png)
+![Screenshot 2022-02-15 at 16.18.37](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2016.18.37.png)
 
 Target system's IP ` 10.0.2.21`.
 
@@ -34,7 +34,7 @@ Let's keep using Nmap this time around with service and version detection:
 
 `nmap -sS -sV <Target Ip>`
 
-![Screenshot 2022-02-15 at 16.37.11](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 16.37.11.png)
+![Screenshot 2022-02-15 at 16.37.11](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2016.37.11.png)
 
 ```
 PORT     STATE SERVICE     VERSION
@@ -67,7 +67,7 @@ Service Info: Hosts:  metasploitable.localdomain, irc.Metasploitable.LAN; OSs: U
 
 Bingo, several ports running different services open:
 
-![Screenshot 2022-02-15 at 16.39.02](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 16.39.02.png)
+![Screenshot 2022-02-15 at 16.39.02](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2016.39.02.png)
 
 Let's try to exploit SSH to connect to the system and also try to exploit the database server.
 
@@ -79,43 +79,43 @@ Let's try to exploit a ftp brute force login:
 
 `use auxiliary/scanner/ftp/ftp_login`
 
-![Screenshot 2022-02-15 at 16.55.01](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 16.55.01.png)
+![Screenshot 2022-02-15 at 16.55.01](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2016.55.01.png)
 
 Set the path of the file that contains the wordlist:
 
-![Screenshot 2022-02-15 at 16.58.26](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 16.58.26.png)
+![Screenshot 2022-02-15 at 16.58.26](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2016.58.26.png)
 
 Set the target IP address, user list and run:
 
-![Screenshot 2022-02-15 at 17.07.54](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 17.07.54.png)
+![Screenshot 2022-02-15 at 17.07.54](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2017.07.54.png)
 
 Let's create a simple user name and password list for demonstration purposes:
 
-![Screenshot 2022-02-15 at 17.27.42](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 17.27.42.png)
+![Screenshot 2022-02-15 at 17.27.42](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2017.27.42.png)
 
 Now let's brute force the SSH Service with `auxiliary/scanner/ssh/ssh_login`:
 
-![Screenshot 2022-02-15 at 17.29.20](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 17.29.20.png)
+![Screenshot 2022-02-15 at 17.29.20](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2017.29.20.png)
 
 Set host, user pass file and run:
 
-![Screenshot 2022-02-15 at 17.37.30](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 17.37.30.png)
+![Screenshot 2022-02-15 at 17.37.30](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2017.37.30.png)
 
 Success! We created 3 sessions. To interact with one of the three sessions, we use the command **msf > sessions –i 3** (for connecting with session 3):
 
-![Screenshot 2022-02-15 at 17.39.48](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 17.39.48.png)
+![Screenshot 2022-02-15 at 17.39.48](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2017.39.48.png)
 
 Let's try and exploit MySQL database:
 
 Let's use the **mysql_login** module and try to bruteforce mysql username and password.
 
-![Screenshot 2022-02-15 at 18.48.55](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 18.48.55.png)
+![Screenshot 2022-02-15 at 18.48.55](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2018.48.55.png)
 
-![Screenshot 2022-02-15 at 18.52.21](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 18.52.21.png)
+![Screenshot 2022-02-15 at 18.52.21](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2018.52.21.png)
 
 And we're in:
 
-![Screenshot 2022-02-15 at 18.55.41](/Users/baphomet/codefellows/learning/ops-401/screenshots/class-44/Screenshot 2022-02-15 at 18.55.41.png)
+![Screenshot 2022-02-15 at 18.55.41](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/Screenshot%202022-02-15%20at%2018.55.41.png)
 
 ### Part 4: Reporting
 
@@ -123,4 +123,4 @@ And we're in:
 
 Document your findings in the OSCP-OS-XXXXX-Lab-Report_Template3.2.docx file, removing any irrelevant templated example data. Upload this file to your Google Drive and link to it in your submission.
 
-Find the report HERE.
+Find the report [HERE](https://github.com/pedrocorreiacodes/ops-401/blob/master/screenshots/class-44/OSCP-OS-XXXXX-Lab-Report_Template%202.pages).
